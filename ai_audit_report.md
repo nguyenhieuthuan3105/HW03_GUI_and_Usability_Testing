@@ -46,6 +46,64 @@ Mỗi phiên tương tác với AI hỗ trợ thực hiện bài tập lớn đ�
     *   Thư mục [agent_skills/](file:///d:/STD/Y3/Y3S3/KiemThuPM/hw/hw3/agent_skills/) với [skills_demo.md](file:///d:/STD/Y3/Y3S3/KiemThuPM/hw/hw3/agent_skills/skills_demo.md) (Mẫu mô tả tự động hóa).
     ```
 
+## Checklist GUI và Usability
+
+### Promt 1:
+*   **Công cụ AI sử dụng:** Gemini 3.5 Flash (Medium) (Antigravity IDE)
+*   **Ngày giờ tương tác:** 16:21 26/07/2026
+*   **Câu lệnh đã hỏi (Prompt):**
+    ```text
+    [shared_gui_checklist.md](file;file:///d%3A/STD/Y3/Y3S3/KiemThuPM/hw/hw3/shared_gui_checklist.md) [main_report.md](file;file:///d%3A/STD/Y3/Y3S3/KiemThuPM/hw/hw3/main_report.md) cập nhật lại bảng checklist mới trong main report ứng với phần checklist chung của nhóm tôi
+    ```
+
+*   **Kết quả phản hồi của AI (Output):** 
+    ```text
+    Tôi đã cập nhật thành công bảng kết quả thực thi checklist GUI trong báo cáo chính main_report.md để đồng bộ hoàn toàn với bảng checklist chung 48 mục mới nhất của nhóm bạn tại shared_gui_checklist.md. Các thay đổi đã thực hiện trong main_report.md:
+    Cập nhật cấu trúc bảng thành 7 cột (ID Checklist, Khía Cạnh, Tiêu Chí Kiểm Tra, Screen 1, Screen 2, Screen 3, Ghi Chú Chi Tiết Lỗi / Link Minh Chứng) - loại bỏ Screen B4 (vé) ra khỏi các cột chạy test chính để khớp với lựa chọn 3 màn hình của bạn.
+    Thay thế toàn bộ nội dung tiêu chí kiểm tra bằng mô tả chi tiết, rõ ràng của 48 mục kiểm thử tương đương (thay vì các dòng mô tả chung chung trước đó).
+    Đồng bộ các cập nhật và bổ sung đặc thù của EMS (tỷ lệ ảnh responsive, vô hiệu hóa nút khi kéo thả reorder, chất lượng mã QR và phòng tránh double-click submit).
+    Bây giờ cấu trúc báo cáo của bạn đã hoàn toàn sẵn sàng cho việc điền kết quả đánh giá Pass/Fail thực tế sau khi chạy test!
+    ```
+
+### Promt 2:
+*   **Công cụ AI sử dụng:** Gemini 3.5 Flash (Medium) (Antigravity IDE)
+*   **Ngày giờ tương tác:** 17:33 26/07/2026
+*   **Câu lệnh đã hỏi (Prompt):**
+    ```text
+    ok, tôi đã chạy test xong cho phần IA-01 cho screen B1. Toàn bộ nội dung nằm trong file [run_check.txt](file;file:///d%3A/STD/Y3/Y3S3/KiemThuPM/hw/hw3/run_check.txt) . Bây giờ hãy điền tương ứng vào trong Bảng checklist trong [main_report.md](file;file:///d%3A/STD/Y3/Y3S3/KiemThuPM/hw/hw3/main_report.md) 12 test case tương ứng nhé. Đồng thời điền các bug tương ứng vào file [bug_usability_findings_log.md](file;file:///d%3A/STD/Y3/Y3S3/KiemThuPM/hw/hw3/bug_usability_findings_log.md)
+    ```
+
+*   **Kết quả phản hồi của AI (Output):** 
+    ```text
+    Tôi đã thực hiện điền thông tin chạy kiểm thử IA-01 của Screen B1 từ file run_check.txt vào các tài liệu tương ứng. Cụ thể các thay đổi gồm: Cập nhật bảng checklist trong main_report.md:
+    Điền trạng thái kiểm thử (Pass hoặc Fail) cho cả 12 test case tương ứng của khía cạnh IA-01 đối với cột Screen B1. Tại các mục Fail (IA-01-04 và IA-01-12), tôi đã chèn đường dẫn tham chiếu đến mã lỗi và liên kết ảnh chụp màn hình lỗi tương ứng trong thư mục cross_platform_screenshots/. 
+    Tạo bản ghi lỗi chi tiết trong bug_usability_findings_log.md:
+    Đã thêm hai bản ghi lỗi mới ở các dòng trống trong bảng nhật ký lỗi tổng hợp:
+    BUG-B1-02: Lỗi không hỗ trợ dịch đa ngôn ngữ cho tiêu đề và nội dung mô tả của sự kiện khi chuyển đổi ngôn ngữ EN/VI (độ nghiêm trọng: 2).
+    BUG-B1-03: Lỗi hiển thị cắt xén tỉ lệ ảnh gốc 24:9 xuống còn 4:3 ngoài trang danh sách gây mất mát thông tin quan trọng ở phần rìa ảnh (độ nghiêm trọng: 2).
+    Các file đã được cập nhật thành công và lưu lại an toàn. Bạn có thể mở trực tiếp các file main_report.md và bug_usability_findings_log.md để kiểm tra lại giao diện bảng.
+    ```
+
+### Promt 3:
+*   **Công cụ AI sử dụng:** Gemini 3.5 Flash (Medium) (Antigravity IDE)
+*   **Ngày giờ tương tác:** 22:03 26/07/2026
+*   **Câu lệnh đã hỏi (Prompt):**
+    ```text
+    [main_report.md](file;file:///d%3A/STD/Y3/Y3S3/KiemThuPM/hw/hw3/main_report.md) [run_check.txt](file;file:///d%3A/STD/Y3/Y3S3/KiemThuPM/hw/hw3/run_check.txt) [bug_usability_findings_log.md](file;file:///d%3A/STD/Y3/Y3S3/KiemThuPM/hw/hw3/bug_usability_findings_log.md) tôi đã hoàn thành việc test cho screen B1. Bây giờ hãy hoàn thành GUI Checklist cho B1 trong main report (khong đụng vào file shared_gui_checklist). đồng thời điền tiếp các bug vào file bug_usability giúp tôi.
+    ```
+
+*   **Kết quả phản hồi của AI (Output):** 
+    ```text
+    Tôi đã hoàn thành toàn bộ yêu cầu của bạn:
+    GUI Checklist ở Screen B1: Đã điền đầy đủ kết quả kiểm thử (Pass/Fail/NA) và mô tả lỗi liên kết tương ứng cho toàn bộ 48 test case (từ IA-01 đến IA-04) của màn hình B1 vào trong bảng checklist chính của main_report.md.
+    Không đụng vào file nhóm: Giữ nguyên trạng thái của file shared_gui_checklist đúng như bạn mong muốn.
+    Cập nhật danh sách lỗi: Đã thêm đầy đủ 5 lỗi mới phát hiện ở Screen B1 vào file bug_usability_findings_log.md bao gồm:
+    BUG-B1-03: Bộ lọc khoảng ngày không kiểm tra tính hợp lệ.
+    BUG-B1-04: URL không đổi/không đồng bộ khi chuyển bộ lọc/tab.
+    BUG-B1-05: Lỗi thiếu Toast khi click "Lưu" sự kiện.
+    BUG-B1-06: Lỗi không lưu được trạng thái sự kiện khi click "Lưu".
+    BUG-B1-07: Lỗi không có cảnh báo/thông báo khi ngắt kết nối Internet (Offline).
+    ```
 ---
 
 ## II. AI CRITIQUE (BÀI VIẾT PHÊ PHÁN AI - MANDATORY)

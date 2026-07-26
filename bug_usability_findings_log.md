@@ -1,20 +1,16 @@
 # Bug & Usability Findings Log - Aggregated Log
 
-> [!NOTE]
-> File nhật ký tổng hợp các lỗi giao diện (Bug) và vấn đề trải nghiệm người dùng (Usability Findings). 
-> **Lưu ý:** Các lỗi ghi ở đây phải khớp hoàn toàn 100% với các thông tin bạn đã gửi trên Google Form của môn học.
-
 ## Bảng Nhật Ký Lỗi Tổng Hợp (9 Cột Bắt Buộc)
 
 | ID | Scenario/Screen | Type (Bug \| Usability) | Description (Mô tả chi tiết lỗi) | Steps/Heuristic (Các bước tái hiện hoặc Heuristic vi phạm) | Severity (0-4) | Suggested Fix (Đề xuất sửa đổi) | Screenshot Ref (Đường dẫn ảnh lỗi) | Form-Submission Timestamp (Thời gian nộp biểu mẫu) |
 |---|---|---|---|---|---|---|---|---|
-| **BUG-B1-01** | Screen B1 | Bug | Carousel của sự kiện nổi bật bị vỡ khung khi chuyển sang ngôn ngữ tiếng Anh (EN). | 1. Đăng nhập tài khoản User.<br>2. Ở trang chủ B1, click đổi ngôn ngữ sang EN trên header.<br>3. Quan sát các tiêu đề dài trong carousel bị tràn viền và che khuất nút trượt. | 3 | Set css property `text-overflow: ellipsis` hoặc giảm kích thước chữ tiêu đề trên các thiết bị di động. | `cross_platform_screenshots/fail_b1_en_carousel.png` | 2026-07-25 16:30:00 |
-| **USAB-B2-01** | Screen B2 | Usability | Nút đăng ký (Register Button) bị ẩn dưới chân trang, người dùng khó phát hiện. | Vi phạm Heuristic #6: Recognition rather than recall. Người dùng phải cuộn xuống rất sâu mới thấy nút hành động chính. | 2 | Thiết kế nút "Register" ở dạng Sticky Button cố định ở chân màn hình điện thoại khi cuộn trang. | `cross_platform_screenshots/usab_b2_register_sticky.png` | 2026-07-25 16:35:00 |
-| | | | | | | | | |
-| | | | | | | | | |
-| | | | | | | | | |
-| | | | | | | | | |
-| | | | | | | | | |
+| **BUG-B1-01** | Screen B1 | Bug | Các phần nội dung sự kiện không được dịch khi chuyển đổi ngôn ngữ EN/VI (vẫn giữ Tiếng Việt). | 1. Đăng nhập tài khoản User.<br>2. Ở trang chủ B1, click icon chuyển ngôn ngữ sang EN.<br>3. Quan sát tiêu đề và mô tả sự kiện vẫn hiển thị ở Tiếng Việt. | 2 | Bọc text sự kiện trong string map độc lập hoặc lưu dữ liệu đa ngôn ngữ sự kiện trong CSDL. | `cross_platform_screenshots/Screen_B1_Bug_Da_Ngon_Ngu.png` | 2026-07-26 16:38:00 |
+| **BUG-B1-02** | Screen B1 | Bug | Ảnh Banner (24:9) bị cắt tỉ lệ 4:3 ngoài danh sách sự kiện gây mất nội dung quan trọng. | 1. Đăng nhập tài khoản User.<br>2. Tại trang danh sách sự kiện B1, quan sát ảnh card sự kiện.<br>3. Ảnh bị cắt xén mất 2 bên rìa (vốn chứa logo/chữ). | 2 | Hiển thị đúng ảnh Thumbnail 4:3 đã upload riêng thay vì tự động cắt ảnh Banner 24:9. | `cross_platform_screenshots/Screen_B1_Bug_Anh_Mat_Noi_Dung_Quan_Trong.png` | 2026-07-26 17:29:00 |
+| **BUG-B1-03** | Screen B1 | Bug | Bộ lọc ngày sự kiện ("Từ" - "Đến") không kiểm tra tính hợp lệ của khoảng ngày, cho phép chọn ngày bắt đầu muộn hơn ngày kết thúc. | 1. Tại bộ lọc ngày sự kiện B1, nhập ô "Từ" là 31/12/2023.<br>2. Nhập ô "Đến" là 12/12/2023.<br>3. Quan sát hệ thống chấp nhận bộ lọc và không báo lỗi. | 2 | Thêm validation cảnh báo lỗi hoặc disable các ngày trước ngày "Từ" trên lịch chọn ngày "Đến". | `cross_platform_screenshots/Screen_B1_Bug_Khong_Bao_Loi_Ngay_Khong_Hop_Le.png` | 2026-07-26 21:00:00 |
+| **BUG-B1-04** | Screen B1 | Bug | Thanh địa chỉ URL không thay đổi và không hiển thị query params khi chuyển đổi qua lại giữa các tab sự kiện hoặc khi áp dụng bộ lọc. | 1. Đăng nhập tài khoản User.<br>2. Ở trang chủ B1, click đổi tab hoặc lọc sự kiện.<br>3. Quan sát thanh địa chỉ trình duyệt không đổi. | 2 | Đồng bộ các params bộ lọc/tab lên URL của trình duyệt bằng query parameters. | `cross_platform_screenshots/Screen_B1_Bug_Duong_Dan_Khong_Thay_Doi.png` | 2026-07-26 21:10:00 |
+| **BUG-B1-05** | Screen B1 | Bug | Không hiển thị thông báo toast xác nhận khi click nút "Lưu" sự kiện trên card. | 1. Đăng nhập tài khoản User.<br>2. Tại trang chủ B1, click nút "Lưu" trên một card sự kiện bất kỳ.<br>3. Không có toast thông báo nào hiển thị ở góc màn hình. | 2 | Thêm thông báo toast màu xanh báo "Đã lưu sự kiện thành công" hoặc thông báo lỗi tương ứng. | `cross_platform_screenshots/Sreeen_B1_Bug_Luu_Su_Kien_Khong_Hien_Bug.png` | 2026-07-26 21:20:00 |
+| **BUG-B1-06** | Screen B1 | Bug | Lỗi lưu trạng thái sự kiện: Nút "Lưu" nhấp nháy chuyển sang "Đã lưu" rồi lập tức quay lại trạng thái "Lưu", sự kiện không được lưu. | 1. Đăng nhập tài khoản User.<br>2. Tại trang chủ B1, click nút "Lưu" trên card sự kiện.<br>3. Nút đổi thành "Đã lưu" trong tích tắc rồi tự động nhảy ngược lại thành "Lưu".<br>4. Kiểm tra trang "Sự kiện đã lưu" thấy trống. | 3 | Sửa lỗi kết nối API lưu sự kiện để giữ trạng thái đã lưu của người dùng ổn định. | `cross_platform_screenshots/Srceen_B1_Bug_Bam_Luu_Su_Kien_Khong_Duoc_Giu_Nguyen_Trang_Thai_1.png`<br>`cross_platform_screenshots/Srceen_B1_Bug_Bam_Luu_Su_Kien_Khong_Duoc_Giu_Nguyen_Trang_Thai_2.png` | 2026-07-26 21:25:00 |
+| **BUG-B1-07** | Screen B1 | Bug | Hệ thống không hiển thị bất kỳ thông báo hay cảnh báo trực quan nào cho người dùng khi bị mất kết nối mạng Internet (Offline). | 1. Đăng nhập tài khoản User.<br>2. Ngắt kết nối mạng Internet trên thiết bị.<br>3. Thực hiện thao tác trên trang B1.<br>4. Quan sát hệ thống không báo mất kết nối. | 2 | Thêm thông báo toast cảnh báo lỗi mất kết nối mạng hoặc hiển thị banner thông tin offline ở đầu trang. | `cross_platform_screenshots/Screen_B1_Bug_Khong_Thong_Bao_Mat_Internet.png` | 2026-07-26 21:30:00 |
 
 ---
 
