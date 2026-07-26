@@ -4,10 +4,9 @@
 
 Nhóm đã nghiên cứu và xây dựng bộ checklist GUI dựa trên các tài liệu chính thống sau:
 *   **Nielsen's 10 Usability Heuristics for User Interface Design**: [Jakob Nielsen - NN/g](https://www.nngroup.com/articles/ten-usability-heuristics/)
-*   **Norman's 6 Design Principles**: Trích từ cuốn sách *The Design of Everyday Things* (Donald Norman) bao gồm: Visibility, Feedback, Constraints, Mapping, Consistency, Affordances.
+*   **Norman's 6 Design Principles**: Trích từ nguồn cuốn sách *The Design of Everyday Things* (Donald Norman), và được nêu vắn tắt dưới dạng 6 tiêu chí bao gồm: Visibility, Feedback, Constraints, Mapping, Consistency, Affordances.
 *   **Shneiderman's Eight Golden Rules of Interface Design**: [Ben Shneiderman](https://www.cs.umd.edu/users/ben/goldenrules.html)
-*   **Slide bài giảng môn học**: GUI + Usability + Compatibility Testing (AI-First, Combined) - CS423 FIT HCMUS.
-*   **Tài liệu chuẩn mực WCAG 2.2**: Hướng dẫn tiếp cận nội dung web về độ tương phản và hỗ trợ người khuyết tật.
+*   **Tài liệu chuẩn mực WCAG 2.1**: Hướng dẫn tiếp cận nội dung web về độ tương phản.
 
 ---
 
@@ -16,7 +15,8 @@ Nhóm đã nghiên cứu và xây dựng bộ checklist GUI dựa trên các tà
 Dưới đây là các câu lệnh (prompts) được nhóm thiết kế để hướng dẫn AI hỗ trợ tạo lập checklist:
 
 ### Prompt 1: Khởi tạo danh sách checklist ban đầu dựa trên Heuristics
-*   **Công cụ sử dụng:** ChatGPT (GPT-4o) / Claude 3.5 Sonnet.
+*   **Công cụ:** Gemini 3.6 Flash (Antigravity)
+*   **Thời gian:** 21:36 25/07/2026
 *   **Nội dung Prompt:**
     ```text
     Bạn là một kỹ sư kiểm thử phần mềm chuyên nghiệp. Hãy đóng vai trò là trợ lý thiết kế danh sách checklist kiểm thử GUI cho một ứng dụng web Quản lý Sự kiện (Event Management System - EMS).
@@ -28,36 +28,39 @@ Dưới đây là các câu lệnh (prompts) được nhóm thiết kế để h
     
     Yêu cầu: Mỗi mục kiểm tra phải ánh xạ rõ ràng tới một trong các nguyên tắc Usability nổi tiếng (10 Heuristics của Nielsen, 6 nguyên tắc của Norman, hoặc 8 quy tắc vàng của Shneiderman). Xuất kết quả dạng bảng Markdown có các cột: ID, Khía Cạnh, Mục Kiểm Tra, Ánh Xạ Heuristic.
     ```
+*   **Kết quả prompt:**
+    ```text
+    tôi đã tạo xong shared_gui_checklist.md: Khung checklist GUI đã được điền sẵn hơn 40 mục kiểm tra phân chia đều vào 4 khía cạnh giao diện (IA-01 đến IA-04), kèm cột Pass/Fail cho từng màn hình 1 đến 3 và ánh xạ chi tiết sang Heuristics của Nielsen/Norman/Shneiderman.
+    ```
 
 ### Prompt 2: Tinh chỉnh và bổ sung các kịch bản kiểm thử đặc thù của EMS
-*   **Công cụ sử dụng:** Claude 3.5 Sonnet.
+*   **Công cụ:** Gemini 3.6 Flash (Antigravity)
+*   **Thời gian:** 21:51 25/07/2026
 *   **Nội dung Prompt:**
     ```text
     Từ bộ checklist GUI đã tạo ở trên, hãy bổ sung các kịch bản kiểm thử nâng cao và thực tế cho hệ thống EMS, cụ thể:
     - Cách thức kiểm duyệt ảnh tải lên với tỷ lệ khung hình cố định (Thumbnail 4:3 và Banner 24:9).
     - Tính năng kéo thả Reorder để sắp xếp thứ tự danh mục hoặc context học thuật (Academic Contexts).
     - Trạng thái phản hồi trực quan khi người dùng nằm trong danh sách chờ (Waitlist) hoặc đăng ký thành công lấy vé QR code.
-    - Đảm bảo tổng số mục kiểm tra vượt quá 40 mục và các mục phải cực kỳ cụ thể để kỹ sư test có thể đánh giá Pass/Fail dễ dàng.
+    ```
+*   **Kết quả prompt:**
+    ```text
+    tôi đã bổ sung và tinh chỉnh lại shared_gui_checklist.md cho hệ thống EMS:
+    - Thêm các mục kiểm thử nâng cao về tỷ lệ ảnh (Aspect Ratio Validation), tính năng kéo thả Reorder, trạng thái Waitlist và QR code.
     ```
 
 ---
 
 ## 3. Giải Trình Bổ Sung Đóng Góp Từ Con Người (Human Review Analysis)
 
-> [!IMPORTANT]
-> Giải trình chi tiết lý do tại sao AI bỏ sót một số mục kiểm tra quan trọng và cách con người rà soát bổ sung.
-
-Mặc dù AI tạo ra khung checklist rất tốt, nhóm đã phát hiện ra AI thường bỏ sót các điểm kiểm thử có tính chất **ngữ cảnh thực tế cao** hoặc **quy trình nghiệp vụ đặc thù của EMS**. Dưới đây là phân tích chi tiết:
+AI đã tạo ra khung checklist rất tốt, nhóm đã phát hiện ra AI thường bỏ sót các điểm kiểm thử có tính chất **ngữ cảnh thực tế cao** hoặc **quy trình nghiệp vụ đặc thù của EMS**. Dưới đây là phân tích chi tiết:
 
 1.  **Lỗi kiểm tra tỷ lệ ảnh (Aspect Ratio Validation):**
-    *   *AI bỏ sót vì:* AI thường chỉ đưa ra các quy tắc chung như "kiểm tra ảnh tải lên thành công" hay "kiểm tra dung lượng file".
+    *   *AI bỏ sót vì:* AI thường chỉ đưa ra quy tắc chung như "kiểm tra ảnh tải lên thành công".
     *   *Con người bổ sung:* Thêm mục kiểm tra tính năng hiển thị ảnh Thumbnail (4:3) và Banner (24:9) không bị méo lệch tỉ lệ trên các kích thước màn hình khác nhau.
 2.  **Trạng thái kéo thả Reorder (Drag & Drop states):**
     *   *AI bỏ sót vì:* AI không hiểu sâu về cách thức tương tác kéo thả cần có phản hồi thị giác (visual feedback) thế nào.
-    *   *Con người bổ sung:* Thêm chi tiết khi kéo thả, dòng được chọn phải mờ đi (opacity-50), các nút thao tác khác tạm thời bị khóa để tránh xung đột hành động.
-3.  **Hệ thống đa ngôn ngữ EN/VI lưu trữ trạng thái (i18n state persistence):**
-    *   *AI bỏ sót vì:* AI coi đa ngôn ngữ là việc dịch text thuần túy.
-    *   *Con người bổ sung:* Thêm mục kiểm tra trạng thái ngôn ngữ được lưu lại kể cả khi người dùng tải lại trang hoặc điều hướng sang trang khác.
-4.  **Tích hợp vé Barcode/QR Code:**
+    *   *Con người bổ sung:* Thêm chi tiết khi kéo thả, các nút thao tác khác tạm thời bị vô hiệu hóa để tránh xung đột hành động.
+3.  **Tích hợp vé Barcode/QR Code:**
     *   *AI bỏ sót vì:* Đây là tính năng nghiệp vụ đặc thù của kịch bản B (Participant ticket).
     *   *Con người bổ sung:* Thêm mục kiểm tra chất lượng hiển thị mã QR/Barcode (không bị mờ, quét được bằng camera điện thoại thông thường) và trạng thái hiển thị vé thay đổi tương ứng khi được phê duyệt/hủy.
