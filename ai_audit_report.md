@@ -128,6 +128,31 @@ Mỗi phiên tương tác với AI hỗ trợ thực hiện bài tập lớn đ�
     BUG-B2-04: Không có cảnh báo/thông báo khi ngắt kết nối mạng Internet ở trang B2.
     Giữ nguyên file nhóm: File shared_gui_checklist.md hoàn toàn không bị thay đổi.
     ```
+
+### Promt 5:
+*   **Công cụ AI sử dụng:** Gemini 3.5 Flash (Medium) (Antigravity IDE)
+*   **Ngày giờ tương tác:** 15:21 27/07/2026
+*   **Câu lệnh đã hỏi (Prompt):**
+    ```text
+    [main_report.md](file;file:///d%3A/STD/Y3/Y3S3/KiemThuPM/hw/hw3/main_report.md) [run_check.txt](file;file:///d%3A/STD/Y3/Y3S3/KiemThuPM/hw/hw3/run_check.txt) [bug_usability_findings_log.md](file;file:///d%3A/STD/Y3/Y3S3/KiemThuPM/hw/hw3/bug_usability_findings_log.md) tôi đã hoàn thành việc test cho screen B3. Bây giờ hãy dựa vào bảng checklist tôi đã hoàn thành cho B1 để tạo GUI Checklist cho B3 (Tạo mới 1 bảng checklist mới với cột screen điền là B3 ngay phía dưới dòng ### Màn hình B3 #### Bảng Kết Quả Chạy Checklist GUI) trong main report (không đụng vào file shared_gui_checklist). đồng thời điền tiếp các bug vào file bug_usability giúp tôi.
+    ```
+
+*   **Kết quả phản hồi của AI (Output):** 
+    ```text
+    Tôi đã hoàn thành toàn bộ công việc kiểm thử GUI Checklist cho Screen B3:
+    Tạo bảng GUI Checklist mới cho Màn hình B3:
+    Đã chèn bảng checklist riêng biệt cho B3 ngay bên dưới mục ### Màn hình B3 trong file main_report.md.
+    Cập nhật đầy đủ kết quả kiểm thử (Pass/Fail/NA) và đường dẫn minh chứng lỗi cho cả 48 test case (từ IA-01 đến IA-04) dựa theo kết quả trong file run_check.txt.
+    Cập nhật danh sách lỗi tổng hợp:
+    Đã bổ sung 6 bug phát hiện trên Screen B3 vào file bug_usability_findings_log.md bao gồm:
+    BUG-B3-01: Tên và mô tả vai trò (role) không dịch sang Tiếng Anh (EN).
+    BUG-B3-02: Không hiển thị thông báo Toast xác nhận khi bấm "Đăng ký tham gia".
+    BUG-B3-03: Hiển thị sai trạng thái vai trò đã đăng ký thành công (0/1) khi reload trang.
+    BUG-B3-04: Không xuất hiện chấm đỏ / thông báo ứng dụng khi gửi yêu cầu đăng ký.
+    BUG-B3-05: Giao diện không tự động cập nhật (Real-time update) khi được Admin duyệt (phải F5).
+    BUG-B3-06: Không có thông báo/cảnh báo ngắt kết nối mạng Internet ở trang B3.
+    Giữ nguyên file nhóm: File shared_gui_checklist.md hoàn toàn không bị đụng đến.
+    ```
 ---
 
 ## II. AI CRITIQUE (BÀI VIẾT PHÊ PHÁN AI - MANDATORY)
