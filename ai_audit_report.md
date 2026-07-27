@@ -104,6 +104,30 @@ Mỗi phiên tương tác với AI hỗ trợ thực hiện bài tập lớn đ�
     BUG-B1-06: Lỗi không lưu được trạng thái sự kiện khi click "Lưu".
     BUG-B1-07: Lỗi không có cảnh báo/thông báo khi ngắt kết nối Internet (Offline).
     ```
+
+### Promt 4:
+*   **Công cụ AI sử dụng:** Gemini 3.5 Flash (Medium) (Antigravity IDE)
+*   **Ngày giờ tương tác:** 10:59 27/07/2026
+*   **Câu lệnh đã hỏi (Prompt):**
+    ```text
+    [main_report.md](file;file:///d%3A/STD/Y3/Y3S3/KiemThuPM/hw/hw3/main_report.md) [run_check.txt](file;file:///d%3A/STD/Y3/Y3S3/KiemThuPM/hw/hw3/run_check.txt) [bug_usability_findings_log.md](file;file:///d%3A/STD/Y3/Y3S3/KiemThuPM/hw/hw3/bug_usability_findings_log.md) tôi đã hoàn thành việc test cho screen B2. Bây giờ hãy dựa vào bảng checklist tôi đã hoàn thành cho B1 để tạo GUI Checklist cho B2 (Tạo mới 1 bảng checklist mới với cột screen điền là B2 ngay phía dưới dòng ### Màn hình B2 #### Bảng Kết Quả Chạy Checklist GUI) trong main report (không đụng vào file shared_gui_checklist). đồng thời điền tiếp các bug vào file bug_usability giúp tôi.
+    ```
+
+*   **Kết quả phản hồi của AI (Output):** 
+    ```text
+    Tôi đã hoàn thành toàn bộ yêu cầu kiểm thử cho Screen B2: 
+    Tạo bảng GUI Checklist mới cho Màn hình B2:
+    Đã chèn một bảng checklist riêng biệt cho B2 ngay bên dưới mục ### Màn hình B2 trong file main_report.md.
+    Đã điền đầy đủ kết quả kiểm thử (Pass/Fail/NA) và mô tả chi tiết lỗi kèm đường dẫn ảnh chụp minh chứng cho toàn bộ 48 tiêu chí dựa trên ghi nhận của bạn trong run_check.txt.
+    Đã chuẩn bị sẵn phần khung ### Màn hình B3 để bạn dễ dàng làm tiếp màn hình tiếp theo.
+    Cập nhật danh sách lỗi tổng hợp:
+    Đã thêm 4 bug mới phát hiện ở Screen B2 vào file bug_usability_findings_log.md bao gồm:
+    BUG-B2-01: Các phần chi tiết sự kiện không dịch sang tiếng Anh (EN).
+    BUG-B2-02: Không hiển thị thông báo Toast xác nhận khi bấm "Lưu sự kiện".
+    BUG-B2-03: Nút "Lưu sự kiện" đổi nhãn "Đã lưu" rồi tự động reset về "Lưu sự kiện".
+    BUG-B2-04: Không có cảnh báo/thông báo khi ngắt kết nối mạng Internet ở trang B2.
+    Giữ nguyên file nhóm: File shared_gui_checklist.md hoàn toàn không bị thay đổi.
+    ```
 ---
 
 ## II. AI CRITIQUE (BÀI VIẾT PHÊ PHÁN AI - MANDATORY)

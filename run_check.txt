@@ -39,8 +39,8 @@ IA-03-10: Pass
 IA-03-11: Fail. Thanh địa chỉ URL không thay đổi và không hiển thị query params khi chuyển đổi qua lại giữa các tab sự kiện hoặc khi áp dụng bộ lọc. Screenshot bug: cross_platform_screenshots/Screen_B1_Bug_Duong_Dan_Khong_Thay_Doi.png 
 IA-03-12: NA
 
-IA-04-01: Fail. Khi bấm lưu sự kiện thì không hề có toast. Lại còn có lỗi khác nữa đó là ngay sau khi trạng thái "Lưu" trên UI vừa được cập nhật thành "Đã lưu" thì lập tức chuyển lại về trạng thái "Lưu". Sự kiện cũng không được lưu trong danh sách "Sự kiện đã lưu". 2 bug, 3 Screenshot bug: cross_platform_screenshots/Sreeen_B1_Bug_Luu_Su_Kien_Khong_Hien_Bug; cross_platform_screenshots/Srceen_B1_Bug_Bam_Luu_Su_Kien_Khong_Duoc_Giu_Nguyen_Trang_Thai_1, cross_platform_screenshots/Srceen_B1_Bug_Bam_Luu_Su_Kien_Khong_Duoc_Giu_Nguyen_Trang_Thai_2 
-IA-04-02: Fail. Khi bấm lưu sự kiện thì không hề có toast. Screenshot bug: cross_platform_screenshots/Sreeen_B1_Bug_Luu_Su_Kien_Khong_Hien_Bug
+IA-04-01: Fail. Khi bấm lưu sự kiện thì không hề có toast. Lại còn có lỗi khác nữa đó là ngay sau khi trạng thái "Lưu" trên UI vừa được cập nhật thành "Đã lưu" thì lập tức chuyển lại về trạng thái "Lưu". Sự kiện cũng không được lưu trong danh sách "Sự kiện đã lưu". 2 bug, 3 Screenshot bug: cross_platform_screenshots/Sreeen_B1_Bug_Luu_Su_Kien_Khong_Hien_Toast; cross_platform_screenshots/Srceen_B1_Bug_Bam_Luu_Su_Kien_Khong_Duoc_Giu_Nguyen_Trang_Thai_1, cross_platform_screenshots/Srceen_B1_Bug_Bam_Luu_Su_Kien_Khong_Duoc_Giu_Nguyen_Trang_Thai_2 
+IA-04-02: Fail. Khi bấm lưu sự kiện thì không hề có toast. Screenshot bug: cross_platform_screenshots/Sreeen_B1_Bug_Luu_Su_Kien_Khong_Hien_Toast
 IA-04-03: NA
 IA-04-04: Pass
 IA-04-05: Pass
@@ -54,57 +54,57 @@ IA-04-12: NA
 
 Scene B2:
 
-IA-01-01:
-IA-01-02:
-IA-01-03:
-IA-01-04:
-IA-01-05:
-IA-01-06:
-IA-01-07:
-IA-01-08:
-IA-01-09:
-IA-01-10:
-IA-01-11:
-IA-01-12:
+IA-01-01: Pass
+IA-01-02: Pass
+IA-01-03: Pass
+IA-01-04: Fail. Các phần thuộc về hệ thống có thể chuyển đổi linh hoạt. Tuy nhiên các nội dung tiêu đề và mô tả của Sự kiện vẫn hiển thị ở Tiếng Việt. Kì vọng là mọi text được hiển thị trên màn hình đều phải được bọc trong 1 lớp string map độc lập để hỗ trợ đa ngôn ngữ. Screenshot bug: cross_platform_screenshots/Screen_B2_Bug_Da_Ngon_Ngu.png
+IA-01-05: Pass
+IA-01-06: Pass
+IA-01-07: Pass
+IA-01-08: Pass
+IA-01-09: Pass
+IA-01-10: Pass
+IA-01-11: Pass
+IA-01-12: Pass
 
-IA-02-01:
-IA-02-02:
-IA-02-03:
-IA-02-04:
-IA-02-05:
-IA-02-06:
-IA-02-07:
-IA-02-08:
-IA-02-09:
-IA-02-10:
-IA-02-11:
-IA-02-12:
+IA-02-01: NA
+IA-02-02: NA
+IA-02-03: NA
+IA-02-04: NA
+IA-02-05: NA
+IA-02-06: NA
+IA-02-07: NA
+IA-02-08: NA
+IA-02-09: Pass
+IA-02-10: NA
+IA-02-11: NA
+IA-02-12: NA
 
-IA-03-01:
-IA-03-02:
-IA-03-03:
-IA-03-04:
-IA-03-05:
-IA-03-06:
-IA-03-07:
-IA-03-08:
-IA-03-09:
-IA-03-10:
-IA-03-11:
-IA-03-12:
+IA-03-01: Pass
+IA-03-02: Pass
+IA-03-03: Pass
+IA-03-04: Pass
+IA-03-05: NA
+IA-03-06: NA
+IA-03-07: Pass
+IA-03-08: Pass
+IA-03-09: Pass
+IA-03-10: NA
+IA-03-11: Pass
+IA-03-12: NA
 
-IA-04-01:
-IA-04-02:
-IA-04-03:
-IA-04-04:
-IA-04-05:
-IA-04-06:
-IA-04-07:
-IA-04-08:
-IA-04-09:
-IA-04-10:
-IA-04-11:
-IA-04-12:
+IA-04-01: Fail. Click "Lưu" không hiện Toast, trạng thái "Đã lưu" tự reset. 2 bug, 3 screenshot bug: cross_platform_screenshots/Sreeen_B2_Bug_Luu_Su_Kien_Khong_Hien_Toast, cross_platform_screenshots/Sreeen_B2_Bug_Bam_Luu_Su_Kien_Khong_Duoc_Giu_Nguyen_Trang_Thai_1, cross_platform_screenshots/Sreeen_B2_Bug_Bam_Luu_Su_Kien_Khong_Duoc_Giu_Nguyen_Trang_Thai_2
+IA-04-02: Fail. Khi bấm lưu sự kiện thì không hề có toast. Screenshot bug: cross_platform_screenshots/Sreeen_B2_Bug_Luu_Su_Kien_Khong_Hien_Toast
+IA-04-03: NA
+IA-04-04: Pass
+IA-04-05: Pass
+IA-04-06: Pass
+IA-04-07: Pass
+IA-04-08: NA
+IA-04-09: Pass
+IA-04-10: Fail. Không có thông báo gì khi bị ngắt kết nối internet: Screenshot bug: cross_platform_screenshots/Screen_B2_Bug_Khong_Thong_Bao_Mat_Internet.png
+IA-04-11: NA
+IA-04-12: NA
 
 Scene B3:
 
