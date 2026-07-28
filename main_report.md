@@ -259,23 +259,37 @@ Bạn đã chọn thực hiện chạy test trên các màn hình sau:
 
 ### 1. Ma Trận Kiểm Thử Tương Thích (Compatibility Matrix)
 
-Bạn cần phân phối kiểm thử sao cho bao phủ:
-*   **3 Hệ điều hành:** Windows, macOS, Android hoặc iOS.
-*   **5 Trình duyệt:** Chrome, Firefox, Safari, Edge, Opera.
-*   **3 Loại thiết bị:** Desktop, Tablet, Phone.
+* **3 Hệ điều hành (OS):** Windows 11, macOS (Sonoma), Android 14.
+* **5 Trình duyệt (Browsers):** Google Chrome, Microsoft Edge, Mozilla Firefox, Opera, Apple Safari.
+* **3 Loại thiết bị (Device Classes):** Desktop, Phone, Tablet.
+* **Quy định minh chứng:** Tất cả ảnh chụp minh chứng bắt buộc có overlay watermark MSSV (`MSSV: 23127125` / `23127125@student.hcmus.edu.vn`) nằm cạnh thanh địa chỉ URL của hệ thống EMS (`https://promoter-starboard-prude.ngrok-free.dev/`).
 
-#### Bảng Ghi Nhận Kết Quả Tương Thích (Bao phủ tối thiểu)
+#### Bảng Ghi Nhận Kết Quả Tương Thích Đa Nền Tảng (Covering B1, B2, B3)
 
-| STT | Thiết bị (Device Class) | Hệ điều hành (OS) | Trình duyệt (Browser) | Screen B1 (Pass/Fail) | Screen B2 (Pass/Fail) | Screen B3 (Pass/Fail) | File ảnh minh chứng (Overlay MSSV) |
+| STT | Loại thiết bị (Device Class) | Hệ điều hành (OS) | Trình duyệt (Browser) | Screen B1 (Pass/Fail) | Screen B2 (Pass/Fail) | Screen B3 (Pass/Fail) | File ảnh minh chứng (Overlay MSSV) |
 |---|---|---|---|---|---|---|---|
-| 1 | Desktop | Windows 11 | Chrome | | | | `B1_Win_Chrome_Desk.png` |
-| 2 | Desktop | macOS | Firefox | | | | `B1_Mac_Firefox_Desk.png` |
-| 3 | Phone | iOS | Safari | | | | `B2_iOS_Safari_Mobile.png` |
-| 4 | Phone | Android | Edge | | | | `B3_And_Edge_Mobile.png` |
-| 5 | Tablet | Android | Opera | | | | `B1_And_Opera_Tab.png` |
-| 6 | Tablet | iOS | Chrome | | | | `B2_iOS_Chrome_Tab.png` |
+| **1** | Desktop | Windows | Google Chrome | Pass | Pass | Pass | [Xem ảnh](images/cross_platform_screenshots/windows_chrome_desktop.png) |
+| **2** | Desktop | Windows | Microsoft Edge | Pass | Pass | Pass | [Xem ảnh](images/cross_platform_screenshots/windows_edge_desktop.png) |
+| **3** | Desktop | Windows | Mozilla Firefox | Pass | Pass | Pass | [Xem ảnh](images/cross_platform_screenshots/windows_firefox_desktop.png) |
+| **4** | Desktop | Windows | Opera | Pass | Pass | Pass | [Xem ảnh](images/cross_platform_screenshots/windows_opera_desktop.png) |
+| **5** | Desktop | macOS | Apple Safari | Pass | Pass | Pass | [Xem ảnh](images/cross_platform_screenshots/macos_safari_desktop.png) |
+| **6** | Phone | Android | Google Chrome | Pass | Pass | Pass | [Xem ảnh](images/cross_platform_screenshots/android_chrome_phone.png) |
+| **7** | Tablet | Android | Google Chrome | Pass | Pass | Pass | [Xem ảnh](images/cross_platform_screenshots/android_chrome_tablet.png) |
 
-### 2. Đánh Giá Khả Năng Tương Thích (Compatibility Analysis)
-*   **Đánh giá Responsive:** [Giao diện co giãn có tốt không? Có hiện tượng chồng chéo chữ trên màn hình nhỏ không?]
-*   **Đánh giá Trình duyệt:** [Có trình duyệt nào hiển thị sai lệch font chữ hoặc không thực thi được các hiệu ứng animation không?]
-*   **Lỗi tương thích nổi bật:** [Mô tả chi tiết lỗi layout cụ thể kèm đường dẫn ảnh lỗi]
+---
+
+### 2. Đánh Giá Khả Năng Tương Thích & Lỗi Bố Cục (Compatibility Analysis)
+
+#### A. Đánh giá Khả năng co giãn giao diện (Responsiveness):
+* **Desktop (Windows 11 / macOS):** Bố cục hiển thị chuẩn lưới 3-4 (hoặc 2-3 với Edge và Opera) cột tùy vào sidebar có được hiển thị hay không, khoảng cách spacing và font chữ đồng đều trên tất cả các trình duyệt. Carousel sự kiện nổi bật xoay mượt mà.
+* **Phone (Android 14):** Giao diện tự động co giãn sang bố cục 1 cột. Tuy nhiên, nút *"Đăng ký tham gia"* ở trang B2 bị đẩy xuống dưới cùng mà không có thanh cố định (Sticky Bar), khiến người dùng phải cuộn hết màn hình mới thấy.
+* **Tablet (Android 14):** Giao diện hiển thị ở dạng lưới 2 cột, trải nghiệm tìm kiếm và điền form mượt mà.
+
+#### B. Sự khác biệt giữa các Trình duyệt (Browser Engines):
+* **Chromium-based (Chrome, Edge, Opera):** Hiển thị hoàn hảo, hiệu ứng chuyển trang mượt mà, font chữ sắc nét.
+* **Gecko (Firefox):** Hiển thị tốt, tuy nhiên ở một số ô input chọn ngày tháng có độ trễ nhẹ khi mở Date Picker.
+* **WebKit (Safari trên macOS):** Render font chữ thanh mảnh hơn, giao diện chuẩn không vỡ layout.
+
+#### C. Tổng hợp Lỗi tương thích nổi bật (Cross-Platform Defects):
+1. **Lỗi Responsive nút bấm trên Mobile (Android/Chrome):** Nút *"Đăng ký tham gia"* trên trang B2 bị che khuất ở màn hình di động nhỏ, không tự động cố định thanh dưới cùng.
+2. **Lỗi cắt ảnh Banner trên màn hình nhỏ:** Ảnh Banner sự kiện 24:9 ngoài danh sách B1 trên di động bị xén mất chữ ở hai biên trái/phải.

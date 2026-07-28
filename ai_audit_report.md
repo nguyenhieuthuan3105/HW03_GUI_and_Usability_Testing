@@ -153,6 +153,181 @@ Mỗi phiên tương tác với AI hỗ trợ thực hiện bài tập lớn đ�
     BUG-B3-06: Không có thông báo/cảnh báo ngắt kết nối mạng Internet ở trang B3.
     Giữ nguyên file nhóm: File shared_gui_checklist.md hoàn toàn không bị đụng đến.
     ```
+
+### Promt 6:
+*   **Công cụ AI sử dụng:** Gemini 3.5 Flash (Medium) (Antigravity IDE)
+*   **Ngày giờ tương tác:** 09:44 28/07/2026
+*   **Câu lệnh đã hỏi (Prompt):**
+    ```text
+    ok, bấy giờ ta bắt đầu bước sang task 2. Hãy cho tôi biết mình cần phải làm gì? thực hiện trên các file nào nhé. Yêu cầu đề là:
+    [guiding.md](file;file:///d%3A/STD/Y3/Y3S3/KiemThuPM/hw/hw3/support/guiding.md) [main_report.md](file;file:///d%3A/STD/Y3/Y3S3/KiemThuPM/hw/hw3/main_report.md) [observation_notes.md](file;file:///d%3A/STD/Y3/Y3S3/KiemThuPM/hw/hw3/user_testing_evidence/observation_notes.md) [sus_responses.md](file;file:///d%3A/STD/Y3/Y3S3/KiemThuPM/hw/hw3/user_testing_evidence/sus_responses.md) [task_scenario.md](file;file:///d%3A/STD/Y3/Y3S3/KiemThuPM/hw/hw3/user_testing_evidence/task_scenario.md) .
+    Hãy chỉ trả lời, đừng sửa file gì hết nhé
+    ```
+
+*   **Kết quả phản hồi của AI (Output):** 
+    ```text
+    Dựa vào yêu cầu đề bài và các file hiện có của bạn, để hoàn thành **Task 2 (User Testing with 5 Real Users → Usability Report)**, chúng ta cần thực hiện các bước theo quy trình như sau:
+    ### 1. Mục tiêu của Task 2
+    Mục tiêu là khảo sát trải nghiệm thực tế của người dùng khi sử dụng hệ thống, thay vì chỉ đánh giá chủ quan. Quá trình này bao gồm:
+    *   Thiết kế kịch bản (Task Scenario).
+    *   Thu thập dữ liệu từ 5 người dùng thực tế (ngoài nhóm học phần).
+    *   Đánh giá định lượng (SUS/UEQ-S) và định tính (Observation, Open-ended questions).
+    *   Phân tích và tổng hợp thành báo cáo (Usability Report).
+    ### 2. Các File Cần Thực Hiện Và Mục Đích
+    Dưới đây là vai trò của từng file trong Task 2 và hành động cần thực hiện:
+    | File | Vai Trò Trong Task 2 |
+    |---|---|
+    | **[guiding.md](file;file:///d%3A/STD/Y3/Y3S3/KiemThuPM/hw/hw3/support/guiding.md)** | Hướng dẫn khung và yêu cầu của bài Task 2. Cần đọc kỹ để nắm rõ quy trình làm.
+    | **[main_report.md](file;file:///d%3A/STD/Y3/Y3S3/KiemThuPM/hw/hw3/main_report.md)** | Báo cáo tổng thể (main report). Sẽ cần tạo thêm các mục mới trong báo cáo này để trình bày kết quả User Testing (Phase 3: Collect, analyse & report).
+    | **[observation_notes.md](file;file:///d%3A/STD/Y3/Y3S3/KiemThuPM/hw/hw3/user_testing_evidence/observation_notes.md)** | Nơi ghi nhận chi tiết quan sát từ 5 phiên thử nghiệm. Cần phải tạo mới (hoặc mở rộng nếu có) để lưu nhật ký quan sát.
+    | **[sus_responses.md](file;file:///d%3A/STD/Y3/Y3S3/KiemThuPM/hw/hw3/user_testing_evidence/sus_responses.md)** | Nơi tổng hợp câu trả lời từ thang đo SUS (System Usability Scale) của 5 người dùng.
+    | **[task_scenario.md](file;file:///d%3A/STD/Y3/Y3S3/KiemThuPM/hw/hw3/user_testing_evidence/task_scenario.md)** | Nơi định nghĩa kịch bản kiểm thử (Phase 1) và có thể ghi nhận kết quả phản hồi liên quan đến kịch bản.
+    ### 3. Tóm Tắt Các Bước Cần Làm
+    #### **Phase 1 — Design & prepare**
+    1.  **Thiết kế kịch bản:** Xác định rõ mục tiêu người dùng cần đạt được (ví dụ: đăng ký sự kiện thành công).
+    2.  **Xây dựng bộ câu hỏi:** Chuẩn bị câu hỏi SUS và các câu probe (mở rộng).
+    3.  **Tuyển người dùng:** Tìm và liên hệ 5 người dùng thực tế (ngoài lớp).
+    4.  **Pilot test:** Chạy thử với 1 người để hoàn thiện kịch bản.
+    #### **Phase 2 — Run the 5 sessions**
+    Thực hiện ghi hình (screen recording) và ghi chú lại:
+    *   Thời gian thực hiện.
+    *   Số lỗi hoặc sự do dự gặp phải.
+    *   Đánh giá SUS.
+    #### **Phase 3 — Collect, analyse & report**
+    1.  **Tính toán chỉ số:** Tính SUS score trung bình, tỷ lệ thành công.
+    2.  **Phân tích vấn đề:** Nhóm các lỗi gặp phải và xếp hạng mức độ nghiêm trọng.
+    3.  **Lập báo cáo:** Cập nhật nội dung vào `main_report.md` và điền đầy đủ thông tin vào các file chứng cứ (Observation Notes, SUS Responses, Task Scenario).
+
+    ```
+
+### Promt 7:
+*   **Công cụ AI sử dụng:** Gemini 3.5 Flash (Medium) (Antigravity IDE)
+*   **Ngày giờ tương tác:** 10:22 28/07/2026
+*   **Câu lệnh đã hỏi (Prompt):**
+    ```text
+    ok, tuy nhiên để đem đi test thì tôi không thể cho họ coi file này được. Cần 1 file test_request.md riêng để cho họ xem. Bạn hãy làm cho tôi file đó nhé. Nội dung sẽ là các yêu cầu theo bước mà người dùng cần thực hiện trong buổi test. Thêm trực tiếp vào folder user_testing_evidence
+    ```
+
+*   **Kết quả phản hồi của AI (Output):** 
+    ```text
+    Tôi đã tạo thành công file user_testing_evidence/test_request.md dành riêng để cho 5 người dùng xem trực tiếp trong các buổi test.
+    📄 Nội dung file test_request.md được thiết kế gọn gàng & thân thiện:
+    Lời chào & Nguyên tắc ứng xử:
+    Giải thích rõ: "Đang test trang web, KHÔNG test bạn".
+    Đề nghị người dùng phương pháp Think Aloud (Nói ra suy nghĩ).
+    Kịch bản Nhiệm vụ (6 bước):
+    Đăng nhập tài khoản lưu sẵn.
+    Tìm kiếm sự kiện USING AI AGENT CONVERSATION.
+    Xem thông tin chi tiết (lịch trình, địa điểm, diễn giả).
+    Đăng ký vai trò chính Sinh viên (Student) & vai trò phụ Khách tham quan (Visitor).
+    Chờ Admin duyệt (khoảng 1 phút).
+    Mở mã QR vé cá nhân để sẵn sàng check-in.
+    Lời cảm ơn & Nhắc điền khảo sát ngắn (SUS): Hướng dẫn bước hoàn thành bài test.
+    ```
+
+### Promt 8:
+*   **Công cụ AI sử dụng:** Gemini 3.6 Flash (High) (Antigravity IDE)
+*   **Ngày giờ tương tác:** 10:25 28/07/2026
+*   **Câu lệnh đã hỏi (Prompt):**
+    ```text
+    ok. Bây giờ hãy giúp tôi hoàn thiện hết các phần liên quan còn lại nhé:
+    Bạn sẽ làm việc trên 4 file chính nằm trong dự án của bạn:
+    user_testing_evidence/task_scenario.md: Chứa kịch bản giao diện cho người dùng (Goal-oriented) và 4 câu hỏi thăm dò (Probe Questions).
+    user_testing_evidence/observation_notes.md: Ghi chép nhật ký quan sát thô của 5 người dùng (thời gian, sự khựng lại/hesitations, câu nói/bộc lộ cảm xúc).
+    user_testing_evidence/sus_responses.md: Ghi nhận điểm khảo sát 10 câu hỏi System Usability Scale (SUS) và công thức tính điểm SUS của 5 người dùng.
+    main_report.md: (Mục PHẦN 3: BÁO CÁO USABILITY TESTING): Nơi bạn tổng hợp báo cáo chính thức gồm: Bảng người tham gia, Bảng chỉ số Usability (Metrics), Các phát hiện Usability (Findings) và Đề xuất cải tiến.
+    hãy thiết kế trước các tiêu chí để có thể điền ngay khi có dữ liệu thôi.
+    ```
+
+*   **Kết quả phản hồi của AI (Output):** 
+    ```text
+    Tôi đã hoàn thiện toàn bộ khung dữ liệu, mẫu biểu và công thức tính toán trên cả 4 file chính của Task 2 để bạn có thể điền số liệu ngay lập tức sau các buổi test với người dùng:
+    📑 TÓM TẮT CÁC CẢI TIẾN TRÊN CÁC FILE:
+    user_testing_evidence/task_scenario.md:
+    Đã hoàn thiện cả Phần kịch bản mục tiêu cho người dùng và luồng E2E chi tiết (Giai đoạn 1 đến Giai đoạn 4) với tên sự kiện thực tế USING AI AGENT CONVERSATION.
+    Tích hợp sẵn 4 câu hỏi thăm dò (Probe Questions) về Tính rõ ràng (Clarity), Khắc phục lỗi (Error Recovery), Tốc độ (Speed) và Độ tin tưởng (Trust).
+    user_testing_evidence/observation_notes.md:
+    Xây dựng sẵn khung ghi chép nhật ký quan sát cho cả 5 người dùng (User 1 đến User 5).
+    Phân chia sẵn cấu trúc: Nhật ký thời gian (Timeline log theo từng mốc giây), Phát ngôn cảm xúc (Think Aloud Quotes) và Phần trả lời 4 câu hỏi thăm dò.
+    user_testing_evidence/sus_responses.md:
+    Cung cấp đầy đủ 10 câu hỏi SUS chuẩn hóa (Song ngữ EN/VI).
+    Tích hợp Công thức tính điểm SUS chuẩn hóa:
+    Câu lẻ (Q1, Q3, Q5, Q7, Q9): $\text{Điểm quy đổi} = \text{Điểm} - 1$
+    Câu chẵn (Q2, Q4, Q6, Q8, Q10): $\text{Điểm quy đổi} = 5 - \text{Điểm}$
+    $\text{Điểm SUS} = \text{Tổng điểm quy đổi} \times 2.5$
+    Có bảng thang đo xếp loại UX chuẩn ngành (> 80.3: Grade A, > 68: Good, < 51: Grade F).
+    main_report.md (Mục Phần 3: Báo Cáo Usability Testing):
+    Tóm tắt kịch bản nhiệm vụ định hướng mục tiêu.
+    Bảng thông tin 5 người tham gia thử nghiệm (đã che 4 số giữa SĐT/Email theo quy định bảo mật).
+    Bảng tổng hợp chỉ số Usability Metrics (Tỷ lệ hoàn thành %, Thời gian trung bình, Số lỗi do dự, Điểm SUS trung bình).
+    Khung trình bày các Phát hiện Usability (Findings) kèm mức độ nghiêm trọng (Severity 0-4), hình ảnh minh chứng và Đề xuất cải tiến.
+    ```
+
+### Promt 9:
+*   **Công cụ AI sử dụng:** Gemini 3.6 Flash (High) (Antigravity IDE)
+*   **Ngày giờ tương tác:** 10:30 28/07/2026
+*   **Câu lệnh đã hỏi (Prompt):**
+    ```text
+    ok, dù sao bây giờ tôi cũng ko thể hoàn thành task 2 ngay lập tức được. Ta tạm để đó và xem thử trong task 3 tôi cần phải làm gì nhé. [2026.HW03.GUI%20Usability%20EMS_En.pdf](file;file:///d%3A/STD/Y3/Y3S3/KiemThuPM/hw/hw3/hw_request/2026.HW03.GUI%20Usability%20EMS_En.pdf) [guiding.md](file;file:///d%3A/STD/Y3/Y3S3/KiemThuPM/hw/hw3/support/guiding.md) [main_report.md](file;file:///d%3A/STD/Y3/Y3S3/KiemThuPM/hw/hw3/main_report.md) 
+    ```
+
+*   **Kết quả phản hồi của AI (Output):** 
+    ```text
+    TỔNG QUAN VỀ TASK 3
+    Mục tiêu của Task 3 là kiểm thử khả năng hiển thị (Layout, Font, Alignment, Responsiveness) và hoạt động của 3 màn hình (B1, B2, B3) trên các môi trường thiết bị, hệ điều hành và trình duyệt khác nhau.
+    📋 YÊU CẦU BẮT BUỘC VỀ ĐỘ PHỦ (COVERAGE REQUIREMENTS)
+    Đề bài yêu cầu bạn phải xây dựng một Ma trận tương thích bao phủ 3 chiều:
+    3 Hệ điều hành (OS): Windows, macOS, Android (hoặc iOS).
+    5 Trình duyệt (Browsers): Chrome, Firefox, Safari, Edge, Opera.
+    3 Loại thiết bị (Device Classes): Desktop (Máy tính bàn/Laptop), Tablet (Máy tính bảng), Phone (Điện thoại di động).
+    💡 Quy tắc phủ tối thiểu (Minimal Coverage Rule):
+    Bạn không cần chạy hết cả $3 \times 5 \times 3 = 45$ trường hợp. Tuy nhiên, danh sách mẫu test của bạn phải đảm bảo:
+    Mỗi Hệ điều hành xuất hiện ít nhất 1 lần.
+    Mỗi Trình duyệt xuất hiện ít nhất 1 lần.
+    Mỗi Loại thiết bị xuất hiện ít nhất 1 lần.
+    Áp dụng kiểm thử trên cả 3 màn hình B1, B2, B3.
+    🚨 QUY ĐỊNH CHỐNG GIẢ MẠO ẢNH (ANTI-AI-CHEAT REQUIREMENT)
+    Chụp minh chứng: Ảnh chụp màn hình từ công cụ giả lập/thiết bị thật (ví dụ: dùng dùng thử BrowserStack / LambdaTest, Chrome DevTools Responsive Mode, hoặc thiết bị thật).
+    Bắt buộc có Watermark/Overlay MSSV: Trên mỗi bức ảnh chụp màn hình tương thích, bạn bắt buộc phải có lớp chữ chèn (Overlay text) hiển thị MSSV/Email sinh viên của bạn (Ví dụ: MSSV: 23127125 hoặc 23127125@student.hcmus.edu.vn) nằm cạnh thanh địa chỉ trình duyệt chứa URL hệ thống EMS ngrok.
+    Thư mục lưu ảnh: Lưu tất cả ảnh ma trận vào thư mục cross_platform_screenshots/ hoặc images/cross_platform_screenshots/.
+    📁 CÁC FILE CẦN THAO TÁC Ở TASK 3
+    main_report.md
+    (Mục PHẦN 4: BÁO CÁO ĐA NỀN TẢNG):
+    Điền Bảng ma trận tương thích cho 3 màn hình B1, B2, B3.
+    Đánh giá khả năng co giãn (Responsiveness) và sự khác biệt hiển thị giữa các trình duyệt.
+    bug_usability_findings_log.md
+    & Google Form:
+    Nếu phát hiện lỗi hiển thị/layout bị vỡ trên môi trường nào (ví dụ Safari di động bị vỡ carousel, Firefox bị tràn chữ), bạn log thêm bug đó vào file log lỗi và submit Google Form.
+    ```
+
+### Promt 10:
+*   **Công cụ AI sử dụng:** Gemini 3.6 Flash (High) (Antigravity IDE)
+*   **Ngày giờ tương tác:** 20:19 28/07/2026
+*   **Câu lệnh đã hỏi (Prompt):**
+    ```text
+    hãy tiến hành xây dựng ma trận cho hợp lý đi, sử dụng tối đa window nếu có thể. Màn hình điện thoại thì dùng android
+    ```
+
+*   **Kết quả phản hồi của AI (Output):** 
+    ```text
+    Tôi đã xây dựng hoàn chỉnh và tối ưu hóa Phần 4: Báo Cáo Đa Nền Tảng (Task 3) trong file main_report.md theo đúng yêu cầu của bạn:
+    Tận dụng tối đa Windows 11: Chạy 4 trình duyệt phổ biến nhất trên Windows 11 (Chrome, Edge, Firefox, Opera).
+    Điện thoại & Máy tính bảng: Sử dụng Android 14 trên Phone & Tablet theo đúng yêu cầu của bạn.
+    Đáp ứng đủ Safari & macOS: Bổ sung 1 mẫu test macOS (Sonoma) + Apple Safari để thỏa mãn đủ tiêu chí 5 Browsers & 3 OS của đề bài.
+    ```
+
+### Promt 11:
+*   **Công cụ AI sử dụng:** Gemini 3.6 Flash (High) (Antigravity IDE)
+*   **Ngày giờ tương tác:** 20:23 28/07/2026
+*   **Câu lệnh đã hỏi (Prompt):**
+    ```text
+
+    ```
+
+*   **Kết quả phản hồi của AI (Output):** 
+    ```text
+
+    ```
 ---
 
 ## II. AI CRITIQUE (BÀI VIẾT PHÊ PHÁN AI - MANDATORY)
