@@ -83,6 +83,7 @@ Bạn đã chọn thực hiện chạy test trên các màn hình sau:
 | IA-04-10 | Feedback | Hiển thị thông báo rõ ràng khi mất kết nối mạng Internet. | Fail | Không cảnh báo khi mất kết nối mạng: xem [BUG-B1-07](/bug_usability_findings_log.md) hoặc [Xem ảnh](cross_platform_screenshots/Screen_B1_Bug_Khong_Thong_Bao_Mat_Internet.png) |
 | IA-04-11 | Feedback | Hệ thống vô hiệu hóa nút gửi hoặc ngăn chặn gửi dữ liệu trùng lặp khi người dùng click đúp nút Submit. | NA | |
 | IA-04-12 | Feedback | Mã QR/Barcode trên vé hiển thị rõ nét (không bị mờ), có kích thước tối thiểu đảm bảo quét được bằng ứng dụng camera thông thường. | NA | |
+| IA-04-13 | Feedback | Ô nhập liệu (text box) hiển thị hiệu ứng viền/nổi bật trực quan (focus state) khi nhấp chuột vào để người dùng nhận biết rõ ràng đang thao tác/nhập liệu. | Pass | |
 
 ### Màn hình B2
 #### Bảng Kết Quả Chạy Checklist GUI
@@ -141,6 +142,7 @@ Bạn đã chọn thực hiện chạy test trên các màn hình sau:
 | IA-04-10 | Feedback | Hiển thị thông báo rõ ràng khi mất kết nối mạng Internet. | Fail | Không cảnh báo khi mất kết nối mạng: xem [BUG-B2-04](/bug_usability_findings_log.md) hoặc [Xem ảnh](cross_platform_screenshots/Screen_B2_Bug_Khong_Thong_Bao_Mat_Internet.png) |
 | IA-04-11 | Feedback | Hệ thống vô hiệu hóa nút gửi hoặc ngăn chặn gửi dữ liệu trùng lặp khi người dùng click đúp nút Submit. | NA | |
 | IA-04-12 | Feedback | Mã QR/Barcode trên vé hiển thị rõ nét (không bị mờ), có kích thước tối thiểu đảm bảo quét được bằng ứng dụng camera thông thường. | NA | |
+| IA-04-13 | Feedback | Ô nhập liệu (text box) hiển thị hiệu ứng viền/nổi bật trực quan (focus state) khi nhấp chuột vào để người dùng nhận biết rõ ràng đang thao tác/nhập liệu. | NA | |
 
 ### Màn hình B3
 #### Bảng Kết Quả Chạy Checklist GUI
@@ -199,6 +201,7 @@ Bạn đã chọn thực hiện chạy test trên các màn hình sau:
 | IA-04-10 | Feedback | Hiển thị thông báo rõ ràng khi mất kết nối mạng Internet. | Fail | Không có thông báo gì khi bị ngắt kết nối internet: xem [BUG-B3-06](/bug_usability_findings_log.md) hoặc [Xem ảnh](cross_platform_screenshots/Screen_B3_Bug_Khong_Thong_Bao_Mat_Internet.png) |
 | IA-04-11 | Feedback | Hệ thống vô hiệu hóa nút gửi hoặc ngăn chặn gửi dữ liệu trùng lặp khi người dùng click đúp nút Submit. | NA | |
 | IA-04-12 | Feedback | Mã QR/Barcode trên vé hiển thị rõ nét (không bị mờ), có kích thước tối thiểu đảm bảo quét được bằng ứng dụng camera thông thường. | NA | |
+| IA-04-13 | Feedback | Ô nhập liệu (text box) hiển thị hiệu ứng viền/nổi bật trực quan (focus state) khi nhấp chuột vào để người dùng nhận biết rõ ràng đang thao tác/nhập liệu. | Pass | |
 
 
 ---

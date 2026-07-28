@@ -51,6 +51,7 @@ IA-04-09: Pass
 IA-04-10: Fail. Không có thông báo gì khi bị ngắt kết nối internet: Screenshot bug: cross_platform_screenshots/Screen_B1_Bug_Khong_Thong_Bao_Mat_Internet.png
 IA-04-11: NA
 IA-04-12: NA
+IA-04-13: Pass
 
 Scene B2:
 
@@ -105,6 +106,7 @@ IA-04-09: Pass
 IA-04-10: Fail. Không có thông báo gì khi bị ngắt kết nối internet: Screenshot bug: cross_platform_screenshots/Screen_B2_Bug_Khong_Thong_Bao_Mat_Internet.png
 IA-04-11: NA
 IA-04-12: NA
+IA-04-13: NA
 
 Scene B3:
 
@@ -159,3 +161,4 @@ IA-04-09: Fail. Noti và Toast đăng ký được phê duyệt đã hiện, tuy
 IA-04-10: Fail. Không có thông báo gì khi bị ngắt kết nối internet. Screenshot bug: cross_platform_screenshots/Screen_B3_Bug_Khong_Thong_Bao_Mat_Internet.png
 IA-04-11: NA
 IA-04-12: NA
+IA-04-13: Pass
