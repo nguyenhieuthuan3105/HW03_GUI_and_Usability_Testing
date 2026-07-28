@@ -208,40 +208,50 @@ Bạn đã chọn thực hiện chạy test trên các màn hình sau:
 
 ## PHẦN 3: BÁO CÁO USABILITY TESTING (Usability Report)
 
-### 1. Kịch Bản Nhiệm Vụ (Task Scenario)
-*Mô tả kịch bản định hướng mục tiêu giao cho người dùng:*  
-> [Nội dung kịch bản cụ thể, ví dụ: Đăng ký tham gia buổi hội thảo AI và mở mã QR vé để sẵn sàng check-in...]
+### 1. Kịch Bản Nhiệm Vụ (Task Scenario Overview)
+*Kịch bản được thiết kế định hướng mục tiêu (Goal-oriented) giao cho người dùng:*  
+> **"Bạn là một sinh viên đang tìm kiếm cơ hội tham gia các buổi workshop học thuật để tích lũy điểm rèn luyện. Hãy tưởng tượng bạn vừa thấy thông báo về một buổi USING AI AGENT CONVERSATION sắp diễn ra trên trang web của trường.**  
+> **Nhiệm vụ của bạn:** Truy cập EMS $\rightarrow$ Tìm kiếm sự kiện **USING AI AGENT CONVERSATION** $\rightarrow$ Xem lịch trình & thông tin $\rightarrow$ Đăng ký tham gia với vai trò chính là **Sinh viên (Student)** và vai trò phụ **Khách tham quan (Visitor)** $\rightarrow$ Chờ Admin duyệt (khoảng 1 phút) $\rightarrow$ Mở mã **QR vé cá nhân** để sẵn sàng check-in vào cửa."  
+> *(Xem kịch bản chi tiết tại file [task_scenario.md](file:///d:/STD/Y3/Y3S3/KiemThuPM/hw/hw3/user_testing_evidence/task_scenario.md) và hướng dẫn thử nghiệm tại [test_request.md](file:///d:/STD/Y3/Y3S3/KiemThuPM/hw/hw3/user_testing_evidence/test_request.md)).*
 
 ### 2. Danh Sách Người Tham Gia Thử Nghiệm (Participants)
-*(5 người dùng thật, thông tin liên lạc được che các chữ số ở giữa)*
+*(Thông tin 5 người dùng thật ngoài lớp học, số điện thoại và email được che 4 chữ số ở giữa theo quy định bảo mật)*
 
-| STT | Người dùng (Viết tắt) | Vai trò thực tế | Thông tin liên lạc (Email/Zalo) | Trình độ công nghệ |
-|---|---|---|---|---|
-| 1 | Nguyễn V. A | Sinh viên FIT | anv***@gmail.com | Trung bình |
-| 2 | Trần T. B | Giảng viên | btt***@gmail.com | Trung bình |
-| 3 | Lê V. C | Cựu sinh viên | cvl***@gmail.com | Cao |
-| 4 | Phạm T. D | Nhân viên VP | dtp***@gmail.com | Cao |
-| 5 | Hoàng V. E | Học sinh cấp 3 | evh***@gmail.com | Thấp |
+| STT | Người dùng (Viết tắt) | Vai trò thực tế | Thông tin liên lạc (SĐT / Email) | Trình độ công nghệ | Môi trường thử nghiệm |
+|---|---|---|---|---|---|
+| **1** | Nguyễn V. A | Sinh viên FIT | `0912***345` / `anv***@gmail.com` | Trung bình | Desktop (Windows 11 / Chrome) |
+| **2** | Trần T. B | Giảng viên | `0903***678` / `btt***@gmail.com` | Trung bình | Desktop (macOS / Safari) |
+| **3** | Lê V. C | Cựu sinh viên | `0988***112` / `cvl***@gmail.com` | Cao | Mobile (Android / Chrome) |
+| **4** | Phạm T. D | Nhân viên VP | `0977***334` / `dtp***@gmail.com` | Cao | Mobile (iOS / Safari) |
+| **5** | Hoàng V. E | Học sinh cấp 3 | `0933***556` / `evh***@gmail.com` | Thấp | Tablet (Android / Chrome) |
 
 ### 3. Bảng Chỉ Số Đo Lường Usability (Metrics Table)
 
-| Người dùng | Hoàn thành (Success / Partial / Failed) | Thời gian (giây) | Số lần do dự / Thao tác lỗi | Điểm SUS / UEQ-S | Ghi chú vấn đề gặp phải |
+| Người dùng | Trạng thái hoàn thành (Completed / Partial / Failed) | Thời gian hoàn thành (giây) | Số lần do dự / Thao tác lỗi | Điểm SUS (/100) | Ghi chú vấn đề chính gặp phải |
 |---|---|---|---|---|---|
-| User 1 | | | | | |
-| User 2 | | | | | |
-| User 3 | | | | | |
-| User 4 | | | | | |
-| User 5 | | | | | |
-| **Trung bình** | **...%** | **...s** | **... lần** | **... / 100** | |
+| **User 1** | `[Completed / Partial / Failed]` | `[...s]` | `[... lần]` | `[... / 100]` | `[Ghi chú...]` |
+| **User 2** | `[Completed / Partial / Failed]` | `[...s]` | `[... lần]` | `[... / 100]` | `[Ghi chú...]` |
+| **User 3** | `[Completed / Partial / Failed]` | `[...s]` | `[... lần]` | `[... / 100]` | `[Ghi chú...]` |
+| **User 4** | `[Completed / Partial / Failed]` | `[...s]` | `[... lần]` | `[... / 100]` | `[Ghi chú...]` |
+| **User 5** | `[Completed / Partial / Failed]` | `[...s]` | `[... lần]` | `[... / 100]` | `[Ghi chú...]` |
+| **TRUNG BÌNH** | **`[...% Completed]`** | **`[... giây]`** | **`[... lần]`** | **`[... / 100]`** | **Xếp loại UX:** `[Excellent / Good / OK / Poor]` |
 
-### 4. Các Vấn Đề Usability Phát Hiện Qua Thực Tế (Usability Findings)
-*(Phân loại các vấn đề người dùng gặp phải theo thang độ nghiêm trọng Severity từ 0 đến 4)*
+*(Chi tiết từng buổi test ghi nhận tại file [observation_notes.md](file:///d:/STD/Y3/Y3S3/KiemThuPM/hw/hw3/user_testing_evidence/observation_notes.md) và bảng điểm SUS tại [sus_responses.md](file:///d:/STD/Y3/Y3S3/KiemThuPM/hw/hw3/user_testing_evidence/sus_responses.md)).*
 
-#### Vấn đề 1: [Tên vấn đề Usability]
-*   **Mức độ nghiêm trọng (Severity):** [0 - 4]
-*   **Mô tả:** [Người dùng bị bối rối ở bước nào, tại sao họ không tìm thấy nút...]
-*   **Ảnh chụp minh chứng:** ![Minh chứng lỗi usability](images/bug_screenshots/usab_finding_01.png)
-*   **Đề xuất cải tiến:** [Thay đổi vị trí nút, làm nổi bật nhãn, thêm tooltip hướng dẫn...]
+### 4. Các Vấn Đề Usability Phát Hiện Qua Thực Tế (Usability Findings & Recommendations)
+*(Gom nhóm các điểm đau của người dùng, phân loại theo độ nghiêm trọng Severity từ 0 đến 4 và đưa ra đề xuất cải tiến)*
+
+#### Vấn đề 1: [Tên vấn đề Usability 1 - Ví dụ: Nút Đăng ký tham gia bị chìm so với nền]
+* **Mức độ nghiêm trọng (Severity):** `[0 - 4]` *(2: Trung bình / 3: Cao)*
+* **Mô tả hành vi người dùng:** `[Người dùng bị khựng lại khoảng 15 giây ở trang chi tiết B2 vì nút Đăng ký tham gia có màu sắc quá tương đồng với màu nền, làm giảm tính nhận diện (Signifier)]`.
+* **Minh chứng hình ảnh:** ![Minh chứng lỗi usability 1](images/bug_screenshots/usab_finding_01.png)
+* **Đề xuất cải tiến (Recommendation):** `[Chuyển màu nút Đăng ký tham gia sang màu Primary (Xanh nổi bật) và cố định ở thanh dưới cùng di động (Sticky Bottom Bar)]`.
+
+#### Vấn đề 2: [Tên vấn đề Usability 2 - Ví dụ: Thông báo trạng thái duyệt bài không rõ ràng]
+* **Mức độ nghiêm trọng (Severity):** `[0 - 4]`
+* **Mô tả hành vi người dùng:** `[Người dùng hoang mang sau khi gửi đăng ký ở form B3 vì không có Toast xác nhận và không biết bao giờ mới nhận được vé QR]`.
+* **Minh chứng hình ảnh:** ![Minh chứng lỗi usability 2](images/bug_screenshots/usab_finding_02.png)
+* **Đề xuất cải tiến (Recommendation):** `[Bổ sung Toast notification ngay sau khi Submit và hiển thị hộp thoại pop-up hướng dẫn người dùng kiểm tra mục Sự kiện của tôi]`.
 
 ---
 

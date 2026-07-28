@@ -1,56 +1,62 @@
-# Phiếu Khảo Sát SUS & UEQ-S (System Usability Scale)
+# PHIẾU KHẢO SÁT VÀ TÍNH ĐIỂM SUS (SYSTEM USABILITY SCALE)
 
 > [!NOTE]
-> Ghi nhận câu trả lời khảo sát và cách tính toán điểm SUS cho 5 người dùng thử nghiệm.
-
-## 1. 10 Câu Hỏi Đánh Giá SUS (System Usability Scale)
-
-Người dùng đánh giá theo thang điểm từ **1 (Rất không đồng ý)** đến **5 (Rất đồng ý)**:
-*   **Q1:** Tôi nghĩ rằng tôi sẽ thích sử dụng hệ thống này thường xuyên.
-*   **Q2:** Tôi thấy hệ thống này phức tạp một cách không cần thiết.
-*   **Q3:** Tôi nghĩ hệ thống này dễ sử dụng.
-*   **Q4:** Tôi nghĩ rằng tôi cần sự hỗ trợ của một kỹ thuật viên để có thể sử dụng hệ thống này.
-*   **Q5:** Tôi thấy các chức năng trong hệ thống này được tích hợp rất tốt.
-*   **Q6:** Tôi nghĩ rằng có quá nhiều sự bất nhất trong hệ thống này.
-*   **Q7:** Tôi tưởng tượng rằng hầu hết mọi người sẽ học cách sử dụng hệ thống này rất nhanh.
-*   **Q8:** Tôi thấy hệ thống rất cồng kềnh/khó sử dụng.
-*   **Q9:** Tôi cảm thấy rất tự tin khi sử dụng hệ thống.
-*   **Q10:** Tôi cần phải học hỏi nhiều thứ trước khi có thể bắt đầu sử dụng hệ thống này.
+> Ghi nhận câu trả lời khảo sát và công thức tính toán điểm System Usability Scale (SUS) cho 5 người dùng thử nghiệm.
 
 ---
 
-## 2. Bảng Kết Quả Đánh Giá Của 5 Người Dùng
+## 📋 1. DANH SÁCH 10 CÂU HỎI ĐÁNH GIÁ SUS
 
-| STT Câu Hỏi | User 1 | User 2 | User 3 | User 4 | User 5 | Ghi Chú |
-|---|---|---|---|---|---|---|
-| **Q1** | | | | | | *(Câu lẻ: Điểm = Câu trả lời - 1)* |
-| **Q2** | | | | | | *(Câu chẵn: Điểm = 5 - Câu trả lời)* |
-| **Q3** | | | | | | |
-| **Q4** | | | | | | |
-| **Q5** | | | | | | |
-| **Q6** | | | | | | |
-| **Q7** | | | | | | |
-| **Q8** | | | | | | |
-| **Q9** | | | | | | |
-| **Q10** | | | | | | |
-| **Tổng Điểm Gốc (Raw Score)** | | | | | | *Tổng điểm của các câu (Q1 đến Q10)* |
-| **Điểm SUS Cá Nhân** | **0.0** | **0.0** | **0.0** | **0.0** | **0.0** | *Điểm SUS = Tổng Điểm Gốc * 2.5* |
+Người dùng đánh giá từng câu theo thang điểm Likert từ **1 (Rất không đồng ý)** đến **5 (Rất đồng ý)**:
 
-### **Điểm SUS Trung Bình Toàn Hệ Thống:** **... / 100**
-*(Xếp loại Usability: Ví dụ > 68 là Đạt mức Trung Bình trở lên)*
+* **Q1:** Tôi nghĩ rằng tôi sẽ thích sử dụng hệ thống này thường xuyên. *(I think that I would like to use this system frequently)*
+* **Q2:** Tôi thấy hệ thống này phức tạp một cách không cần thiết. *(I found the system unnecessarily complex)*
+* **Q3:** Tôi nghĩ hệ thống này dễ sử dụng. *(I thought the system was easy to use)*
+* **Q4:** Tôi nghĩ rằng tôi cần sự hỗ trợ của một kỹ thuật viên để có thể sử dụng hệ thống này. *(I think that I would need the support of a technical person to be able to use this system)*
+* **Q5:** Tôi thấy các chức năng trong hệ thống này được tích hợp rất tốt. *(I found the various functions in this system were well integrated)*
+* **Q6:** Tôi nghĩ rằng có quá nhiều sự bất nhất trong hệ thống này. *(I thought there was too much inconsistency in this system)*
+* **Q7:** Tôi tưởng tượng rằng hầu hết mọi người sẽ học cách sử dụng hệ thống này rất nhanh. *(I would imagine that most people would learn to use this system very quickly)*
+* **Q8:** Tôi thấy hệ thống rất cồng kềnh/khó sử dụng. *(I found the system very cumbersome/awkward to use)*
+* **Q9:** Tôi cảm thấy rất tự tin khi sử dụng hệ thống. *(I felt very confident using the system)*
+* **Q10:** Tôi cần phải học hỏi nhiều thứ trước khi có thể bắt đầu sử dụng hệ thống này. *(I needed to learn a lot of things before I could get going with this system)*
 
 ---
 
-## 3. Khảo Sát UEQ-S Rút Gọn (Nếu Sử Dụng Thay Thế)
+## 🧮 2. CÔNG THỨC TÍNH ĐIỂM SUS CHUẨN
 
-Người dùng đánh giá theo thang điểm từ **-3** đến **+3** cho 8 cặp tính từ đối lập:
-1.  Hại (Obstructive) vs. Lợi (Supportive)
-2.  Khó hiểu (Easy to understand) vs. Dễ hiểu (Clear)
-3.  Kém hiệu quả (Inefficient) vs. Hiệu quả (Efficient)
-4.  Bất tiện (Clear) vs. Tiện lợi (Easy)
-5.  Nhàm chán (Boring) vs. Thú vị (Exciting)
-6.  Tầm thường (Not interesting) vs. Sáng tạo (Creative)
-7.  Không đáng tin (Unreliable) vs. Đáng tin (Reliable)
-8.  Lỗi thời (Conventional) vs. Hiện đại (Inventive)
+* **Đối với các câu hỏi LẺ (Q1, Q3, Q5, Q7, Q9):** Điểm quy đổi = $\text{Điểm đánh giá} - 1$
+* **Đối với các câu hỏi CHẴN (Q2, Q4, Q6, Q8, Q10):** Điểm quy đổi = $5 - \text{Điểm đánh giá}$
+* **Tổng điểm quy đổi (Sum):** Cộng điểm quy đổi của cả 10 câu (giá trị từ 0 đến 40).
+* **Điểm SUS Cá Nhân (SUS Score):** $\text{SUS Score} = \text{Sum} \times 2.5$ (giá trị chuẩn hóa từ 0 đến 100).
 
-*(Điền bảng kết quả UEQ-S nếu nhóm bạn thống nhất chọn UEQ-S thay cho SUS)*
+---
+
+## 📊 3. BẢNG GHI NHẬN VÀ TÍNH ĐIỂM CỦA 5 NGƯỜI DÙNG
+
+| STT | Câu hỏi | User 1 | User 2 | User 3 | User 4 | User 5 | Trung bình điểm gốc |
+|---|---|---|---|---|---|---|---|
+| **Q1** | Thích sử dụng thường xuyên (Lẻ) | `[1-5]` | `[1-5]` | `[1-5]` | `[1-5]` | `[1-5]` | `[0.0]` |
+| **Q2** | Phức tạp không cần thiết (Chẵn) | `[1-5]` | `[1-5]` | `[1-5]` | `[1-5]` | `[1-5]` | `[0.0]` |
+| **Q3** | Dễ sử dụng (Lẻ) | `[1-5]` | `[1-5]` | `[1-5]` | `[1-5]` | `[1-5]` | `[0.0]` |
+| **Q4** | Cần hỗ trợ kỹ thuật (Chẵn) | `[1-5]` | `[1-5]` | `[1-5]` | `[1-5]` | `[1-5]` | `[0.0]` |
+| **Q5** | Chức năng tích hợp tốt (Lẻ) | `[1-5]` | `[1-5]` | `[1-5]` | `[1-5]` | `[1-5]` | `[0.0]` |
+| **Q6** | Bất nhất trong hệ thống (Chẵn) | `[1-5]` | `[1-5]` | `[1-5]` | `[1-5]` | `[1-5]` | `[0.0]` |
+| **Q7** | Học cách dùng nhanh (Lẻ) | `[1-5]` | `[1-5]` | `[1-5]` | `[1-5]` | `[1-5]` | `[0.0]` |
+| **Q8** | Cồng kềnh/khó dùng (Chẵn) | `[1-5]` | `[1-5]` | `[1-5]` | `[1-5]` | `[1-5]` | `[0.0]` |
+| **Q9** | Tự tin khi sử dụng (Lẻ) | `[1-5]` | `[1-5]` | `[1-5]` | `[1-5]` | `[1-5]` | `[0.0]` |
+| **Q10** | Cần học nhiều trước khi dùng (Chẵn) | `[1-5]` | `[1-5]` | `[1-5]` | `[1-5]` | `[1-5]` | `[0.0]` |
+| **Sum** | **Tổng điểm quy đổi (0-40)** | **`0`** | **`0`** | **`0`** | **`0`** | **`0`** | - |
+| **SUS** | **ĐIỂM SUS CÁ NHÂN (0-100)** | **`0.0`** | **`0.0`** | **`0.0`** | **`0.0`** | **`0.0`** | - |
+
+---
+
+### 🏆 ĐIỂM SUS TRUNG BÌNH TOÀN HỆ THỐNG: `[... / 100]`
+
+---
+
+## 📈 4. THANG ĐO VÀ XẾP LOẠI ĐIỂM SUS (BENCHMARK INTERPRETATION)
+
+* **> 80.3 điểm (Grade A / Excellent):** Trải nghiệm xuất sắc, người dùng rất hài lòng.
+* **68.0 – 80.2 điểm (Grade B / Good):** Trải nghiệm tốt, vượt mức trung bình ngành.
+* **51.0 – 67.9 điểm (Grade C-D / OK to Poor):** Trải nghiệm trung bình yếu, cần nhiều cải tiến.
+* **< 51.0 điểm (Grade F / Awful):** Trải nghiệm rất tồi tệ, không đạt yêu cầu sử dụng.
