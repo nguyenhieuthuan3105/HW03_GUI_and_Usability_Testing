@@ -35,7 +35,7 @@ Bạn đã chọn thực hiện chạy test trên các màn hình sau:
 | IA-01-01 | General UI | Hệ thống lưới và khoảng cách (Grid & Spacing) căn lề nhất quán trên toàn màn hình. | Pass | |
 | IA-01-02 | General UI | Font chữ (typography) nhất quán về kích thước, độ dày (bold/regular) và phân cấp tiêu đề. | Pass | |
 | IA-01-03 | General UI | Màu sắc của các nút hành động (Primary, Secondary) và trạng thái nhất quán. | Pass | |
-| IA-01-04 | General UI | Đa ngôn ngữ (EN/VI) hoạt động đầy đủ, không bị dịch thiếu hoặc chồng lấp chữ. | Fail | Tiêu đề và mô tả sự kiện không dịch: xem [BUG-B1-01](/bug_usability_findings_log.md) hoặc [Xem ảnh](cross_platform_screenshots/Screen_B1_Bug_Da_Ngon_Ngu.png) |
+| IA-01-04 | General UI | Đa ngôn ngữ (EN/VI) hoạt động đầy đủ, không bị dịch thiếu hoặc chồng lấp chữ. | Fail | Tiêu đề và mô tả sự kiện không dịch: xem [BUG-B1-01](/bug_usability_findings_log.md) hoặc [Xem ảnh](images/bug_screenshots/Screen_B1_Bug_Da_Ngon_Ngu.png) |
 | IA-01-05 | General UI | Trạng thái rỗng (Empty state) được hiển thị rõ ràng khi không có sự kiện/dữ liệu nào. | Pass | |
 | IA-01-06 | General UI | Trạng thái đang tải (Loading state/skeleton) hiển thị khi kéo dữ liệu chậm. | Pass | |
 | IA-01-07 | General UI | Trang web tương thích tốt và tự động co giãn (Responsive) trên màn hình. | Pass | |
@@ -43,12 +43,12 @@ Bạn đã chọn thực hiện chạy test trên các màn hình sau:
 | IA-01-09 | General UI | Các icon được căn chỉnh đúng tâm so với nhãn text bên cạnh. | Pass | |
 | IA-01-10 | General UI | Độ tương phản màu sắc giữa văn bản và nền đủ rõ ràng (Accessibility WCAG). | Pass | |
 | IA-01-11 | General UI | Các liên kết ngoài (External links) mở ở tab mới, liên kết nội bộ (Internal links) mở ở tab hiện tại. | Pass | |
-| IA-01-12 | General UI | Ảnh Thumbnail (4:3) và Banner (24:9) không bị cắt xén mất nội dung quan trọng. | Fail | Ảnh banner bị cắt mất 2 bên: xem [BUG-B1-02](/bug_usability_findings_log.md) hoặc [Xem ảnh](cross_platform_screenshots/Screen_B1_Bug_Anh_Mat_Noi_Dung_Quan_Trong.png) |
+| IA-01-12 | General UI | Ảnh Thumbnail (4:3) và Banner (24:9) không bị cắt xén mất nội dung quan trọng. | Fail | Ảnh banner bị cắt mất 2 bên: xem [BUG-B1-02](/bug_usability_findings_log.md) hoặc [Xem ảnh](images/bug_screenshots/Screen_B1_Bug_Anh_Mat_Noi_Dung_Quan_Trong.png) |
 | **IA-02** | **Forms** | **IA-02: Forms (Labels, Validation, Errors, Required Fields, Rich Text)** | | |
 | IA-02-01 | Forms | Các trường bắt buộc nhập (Required fields) được đánh dấu ký hiệu trực quan (ví dụ dấu `*`). | NA | |
 | IA-02-02 | Forms | Nhãn (Labels) của trường nhập liệu luôn hiển thị rõ ràng và đi sát với ô nhập liệu. | NA | |
 | IA-02-03 | Forms | Validation thời gian thực báo lỗi đỏ trực quan ngay dưới trường nhập liệu bị lỗi. | NA | |
-| IA-02-04 | Forms | Thông báo lỗi cụ thể, hướng dẫn cách khắc phục thay vì báo lỗi chung chung. | Fail | Không báo lỗi khi nhập ngày kết thúc trước ngày bắt đầu: xem [BUG-B1-03](/bug_usability_findings_log.md) hoặc [Xem ảnh](cross_platform_screenshots/Screen_B1_Bug_Khong_Bao_Loi_Ngay_Khong_Hop_Le.png) |
+| IA-02-04 | Forms | Thông báo lỗi cụ thể, hướng dẫn cách khắc phục thay vì báo lỗi chung chung. | Fail | Không báo lỗi khi nhập ngày kết thúc trước ngày bắt đầu: xem [BUG-B1-03](/bug_usability_findings_log.md) hoặc [Xem ảnh](images/bug_screenshots/Screen_B1_Bug_Khong_Bao_Loi_Ngay_Khong_Hop_Le.png) |
 | IA-02-05 | Forms | Định dạng tải lên (Upload file/image) kiểm tra đúng định dạng và dung lượng tối đa. | NA | |
 | IA-02-06 | Forms | Trình soạn thảo Rich Text hiển thị đầy đủ thanh công cụ và hoạt động mượt mà. | NA | |
 | IA-02-07 | Forms | Người dùng có thể nhấn `Tab` để di chuyển tuần tự qua các ô nhập liệu trong form. | Pass | |
@@ -68,10 +68,10 @@ Bạn đã chọn thực hiện chạy test trên các màn hình sau:
 | IA-03-08 | Navigation | Không có liên kết nào bị hỏng (Broken links / 404 error) trên toàn giao diện. | Pass | |
 | IA-03-09 | Navigation | Nút "Cuộn lên đầu trang" (Back to top) hiển thị khi người dùng cuộn xuống sâu (nếu có). | Pass | |
 | IA-03-10 | Navigation | Thanh bên sidebar có thể thu gọn/mở rộng mượt mà và không che khuất nội dung chính. | Pass | |
-| IA-03-11 | Navigation | Đường dẫn URL trên thanh địa chỉ thay đổi tương ứng khi chuyển đổi qua lại giữa các tab hoặc bộ lọc. | Fail | URL không đồng bộ khi lọc/chuyển tab: xem [BUG-B1-04](/bug_usability_findings_log.md) hoặc [Xem ảnh](cross_platform_screenshots/Screen_B1_Bug_Duong_Dan_Khong_Thay_Doi.png) |
+| IA-03-11 | Navigation | Đường dẫn URL trên thanh địa chỉ thay đổi tương ứng khi chuyển đổi qua lại giữa các tab hoặc bộ lọc. | Fail | URL không đồng bộ khi lọc/chuyển tab: xem [BUG-B1-04](/bug_usability_findings_log.md) hoặc [Xem ảnh](images/bug_screenshots/Screen_B1_Bug_Duong_Dan_Khong_Thay_Doi.png) |
 | IA-03-12 | Navigation | Giao diện kéo thả (Reorder) hiển thị biểu tượng tay cầm (drag handle) rõ ràng để gợi ý khả năng tương tác. | NA | |
 | **IA-04** | **Feedback** | **IA-04: Feedback & State (Toasts, Badges, Confirmations, Progress Bars, Status Colors)** | | |
-| IA-04-01 | Feedback | Thông báo nổi (Toasts) xuất hiện ngay sau khi thực hiện hành động và tự động tắt sau 3-5s. | Fail | Click "Lưu" không hiện Toast, trạng thái "Đã lưu" tự reset: xem [BUG-B1-05](/bug_usability_findings_log.md) hoặc [Xem ảnh](cross_platform_screenshots/Screen_B1_Bug_Luu_Su_Kien_Khong_Hien_Toast.png), [BUG-B1-06](/bug_usability_findings_log.md) hoặc [Xem ảnh](cross_platform_screenshots/Screen_B1_Bug_Bam_Luu_Su_Kien_Khong_Duoc_Giu_Nguyen_Trang_Thai_1.png) và [Xem ảnh](cross_platform_screenshots/Screen_B1_Bug_Bam_Luu_Su_Kien_Khong_Duoc_Giu_Nguyen_Trang_Thai_2.png) |
+| IA-04-01 | Feedback | Thông báo nổi (Toasts) xuất hiện ngay sau khi thực hiện hành động và tự động tắt sau 3-5s. | Fail | Click "Lưu" không hiện Toast, trạng thái "Đã lưu" tự reset: xem [BUG-B1-05](/bug_usability_findings_log.md) hoặc [Xem ảnh](images/bug_screenshots/Screen_B1_Bug_Luu_Su_Kien_Khong_Hien_Toast.png), [BUG-B1-06](/bug_usability_findings_log.md) hoặc [Xem ảnh](images/bug_screenshots/Screen_B1_Bug_Bam_Luu_Su_Kien_Khong_Duoc_Giu_Nguyen_Trang_Thai_1.png) và [Xem ảnh](images/bug_screenshots/Screen_B1_Bug_Bam_Luu_Su_Kien_Khong_Duoc_Giu_Nguyen_Trang_Thai_2.png) |
 | IA-04-02 | Feedback | Toasts có màu sắc phân biệt rõ ràng: Xanh (Thành công), Đỏ (Lỗi), Vàng (Cảnh báo). | Fail | Không xuất hiện Toast để kiểm tra màu sắc (Lỗi liên đới từ IA-04-01) |
 | IA-04-03 | Feedback | Hộp thoại xác nhận (Confirmation dialog) xuất hiện trước các hành động hủy/xóa quan trọng. | NA | |
 | IA-04-04 | Feedback | Huy hiệu (Badges) hiển thị chính xác số lượng thông báo; trạng thái vé thay đổi tương ứng khi được phê duyệt/hủy. | Pass | |
@@ -80,7 +80,7 @@ Bạn đã chọn thực hiện chạy test trên các màn hình sau:
 | IA-04-07 | Feedback | Chấm đỏ thông báo (Notification dot) hiển thị động ngay khi có thay đổi trạng thái đăng ký. | Pass | |
 | IA-04-08 | Feedback | Hộp thoại chi tiết ảnh (Lightbox) mở rộng mượt mà khi click vào ảnh đính kèm. | NA | |
 | IA-04-09 | Feedback | Cập nhật dữ liệu thời gian thực (Real-time update) mà không cần người dùng reload trang. | Pass | |
-| IA-04-10 | Feedback | Hiển thị thông báo rõ ràng khi mất kết nối mạng Internet. | Fail | Không cảnh báo khi mất kết nối mạng: xem [BUG-B1-07](/bug_usability_findings_log.md) hoặc [Xem ảnh](cross_platform_screenshots/Screen_B1_Bug_Khong_Thong_Bao_Mat_Internet.png) |
+| IA-04-10 | Feedback | Hiển thị thông báo rõ ràng khi mất kết nối mạng Internet. | Fail | Không cảnh báo khi mất kết nối mạng: xem [BUG-B1-07](/bug_usability_findings_log.md) hoặc [Xem ảnh](images/bug_screenshots/Screen_B1_Bug_Khong_Thong_Bao_Mat_Internet.png) |
 | IA-04-11 | Feedback | Hệ thống vô hiệu hóa nút gửi hoặc ngăn chặn gửi dữ liệu trùng lặp khi người dùng click đúp nút Submit. | NA | |
 | IA-04-12 | Feedback | Mã QR/Barcode trên vé hiển thị rõ nét (không bị mờ), có kích thước tối thiểu đảm bảo quét được bằng ứng dụng camera thông thường. | NA | |
 | IA-04-13 | Feedback | Ô nhập liệu (text box) hiển thị hiệu ứng viền/nổi bật trực quan (focus state) khi nhấp chuột vào để người dùng nhận biết rõ ràng đang thao tác/nhập liệu. | Pass | |
@@ -94,7 +94,7 @@ Bạn đã chọn thực hiện chạy test trên các màn hình sau:
 | IA-01-01 | General UI | Hệ thống lưới và khoảng cách (Grid & Spacing) căn lề nhất quán trên toàn màn hình. | Pass | |
 | IA-01-02 | General UI | Font chữ (typography) nhất quán về kích thước, độ dày (bold/regular) và phân cấp tiêu đề. | Pass | |
 | IA-01-03 | General UI | Màu sắc của các nút hành động (Primary, Secondary) và trạng thái nhất quán. | Pass | |
-| IA-01-04 | General UI | Đa ngôn ngữ (EN/VI) hoạt động đầy đủ, không bị dịch thiếu hoặc chồng lấp chữ. | Fail | Tiêu đề và mô tả sự kiện không dịch: xem [BUG-B2-01](/bug_usability_findings_log.md) hoặc [Xem ảnh](cross_platform_screenshots/Screen_B2_Bug_Da_Ngon_Ngu.png) |
+| IA-01-04 | General UI | Đa ngôn ngữ (EN/VI) hoạt động đầy đủ, không bị dịch thiếu hoặc chồng lấp chữ. | Fail | Tiêu đề và mô tả sự kiện không dịch: xem [BUG-B2-01](/bug_usability_findings_log.md) hoặc [Xem ảnh](images/bug_screenshots/Screen_B2_Bug_Da_Ngon_Ngu.png) |
 | IA-01-05 | General UI | Trạng thái rỗng (Empty state) được hiển thị rõ ràng khi không có sự kiện/dữ liệu nào. | Pass | |
 | IA-01-06 | General UI | Trạng thái đang tải (Loading state/skeleton) hiển thị khi kéo dữ liệu chậm. | Pass | |
 | IA-01-07 | General UI | Trang web tương thích tốt và tự động co giãn (Responsive) trên màn hình. | Pass | |
@@ -130,7 +130,7 @@ Bạn đã chọn thực hiện chạy test trên các màn hình sau:
 | IA-03-11 | Navigation | Đường dẫn URL trên thanh địa chỉ thay đổi tương ứng khi chuyển đổi qua lại giữa các tab hoặc bộ lọc. | Pass | |
 | IA-03-12 | Navigation | Giao diện kéo thả (Reorder) hiển thị biểu tượng tay cầm (drag handle) rõ ràng để gợi ý khả năng tương tác. | NA | |
 | **IA-04** | **Feedback** | **IA-04: Feedback & State (Toasts, Badges, Confirmations, Progress Bars, Status Colors)** | | |
-| IA-04-01 | Feedback | Thông báo nổi (Toasts) xuất hiện ngay sau khi thực hiện hành động và tự động tắt sau 3-5s. | Fail | Click "Lưu" không hiện Toast, trạng thái "Đã lưu" tự reset: xem [BUG-B2-02](/bug_usability_findings_log.md) hoặc [Xem ảnh](cross_platform_screenshots/Screen_B2_Bug_Luu_Su_Kien_Khong_Hien_Toast.png), [BUG-B2-03](/bug_usability_findings_log.md) hoặc [Xem ảnh 1](cross_platform_screenshots/Screen_B2_Bug_Bam_Luu_Su_Kien_Khong_Duoc_Giu_Nguyen_Trang_Thai_1.png) và [Xem ảnh 2](cross_platform_screenshots/Screen_B2_Bug_Bam_Luu_Su_Kien_Khong_Duoc_Giu_Nguyen_Trang_Thai_2.png) |
+| IA-04-01 | Feedback | Thông báo nổi (Toasts) xuất hiện ngay sau khi thực hiện hành động và tự động tắt sau 3-5s. | Fail | Click "Lưu" không hiện Toast, trạng thái "Đã lưu" tự reset: xem [BUG-B2-02](/bug_usability_findings_log.md) hoặc [Xem ảnh](images/bug_screenshots/Screen_B2_Bug_Luu_Su_Kien_Khong_Hien_Toast.png), [BUG-B2-03](/bug_usability_findings_log.md) hoặc [Xem ảnh 1](images/bug_screenshots/Screen_B2_Bug_Bam_Luu_Su_Kien_Khong_Duoc_Giu_Nguyen_Trang_Thai_1.png) và [Xem ảnh 2](images/bug_screenshots/Screen_B2_Bug_Bam_Luu_Su_Kien_Khong_Duoc_Giu_Nguyen_Trang_Thai_2.png) |
 | IA-04-02 | Feedback | Toasts có màu sắc phân biệt rõ ràng: Xanh (Thành công), Đỏ (Lỗi), Vàng (Cảnh báo). | Fail | Không xuất hiện Toast để kiểm tra màu sắc (Lỗi liên đới từ IA-04-01): xem [BUG-B2-02](/bug_usability_findings_log.md) |
 | IA-04-03 | Feedback | Hộp thoại xác nhận (Confirmation dialog) xuất hiện trước các hành động hủy/xóa quan trọng. | NA | |
 | IA-04-04 | Feedback | Huy hiệu (Badges) hiển thị chính xác số lượng thông báo; trạng thái vé thay đổi tương ứng khi được phê duyệt/hủy. | Pass | |
@@ -139,7 +139,7 @@ Bạn đã chọn thực hiện chạy test trên các màn hình sau:
 | IA-04-07 | Feedback | Chấm đỏ thông báo (Notification dot) hiển thị động ngay khi có thay đổi trạng thái đăng ký. | Pass | |
 | IA-04-08 | Feedback | Hộp thoại chi tiết ảnh (Lightbox) mở rộng mượt mà khi click vào ảnh đính kèm. | NA | |
 | IA-04-09 | Feedback | Cập nhật dữ liệu thời gian thực (Real-time update) mà không cần người dùng reload trang. | Pass | |
-| IA-04-10 | Feedback | Hiển thị thông báo rõ ràng khi mất kết nối mạng Internet. | Fail | Không cảnh báo khi mất kết nối mạng: xem [BUG-B2-04](/bug_usability_findings_log.md) hoặc [Xem ảnh](cross_platform_screenshots/Screen_B2_Bug_Khong_Thong_Bao_Mat_Internet.png) |
+| IA-04-10 | Feedback | Hiển thị thông báo rõ ràng khi mất kết nối mạng Internet. | Fail | Không cảnh báo khi mất kết nối mạng: xem [BUG-B2-04](/bug_usability_findings_log.md) hoặc [Xem ảnh](images/bug_screenshots/Screen_B2_Bug_Khong_Thong_Bao_Mat_Internet.png) |
 | IA-04-11 | Feedback | Hệ thống vô hiệu hóa nút gửi hoặc ngăn chặn gửi dữ liệu trùng lặp khi người dùng click đúp nút Submit. | NA | |
 | IA-04-12 | Feedback | Mã QR/Barcode trên vé hiển thị rõ nét (không bị mờ), có kích thước tối thiểu đảm bảo quét được bằng ứng dụng camera thông thường. | NA | |
 | IA-04-13 | Feedback | Ô nhập liệu (text box) hiển thị hiệu ứng viền/nổi bật trực quan (focus state) khi nhấp chuột vào để người dùng nhận biết rõ ràng đang thao tác/nhập liệu. | NA | |
@@ -153,7 +153,7 @@ Bạn đã chọn thực hiện chạy test trên các màn hình sau:
 | IA-01-01 | General UI | Hệ thống lưới và khoảng cách (Grid & Spacing) căn lề nhất quán trên toàn màn hình. | Pass | |
 | IA-01-02 | General UI | Font chữ (typography) nhất quán về kích thước, độ dày (bold/regular) và phân cấp tiêu đề. | Pass | |
 | IA-01-03 | General UI | Màu sắc của các nút hành động (Primary, Secondary) và trạng thái nhất quán. | Pass | |
-| IA-01-04 | General UI | Đa ngôn ngữ (EN/VI) hoạt động đầy đủ, không bị dịch thiếu hoặc chồng lấp chữ. | Fail | Tên role tham dự và mô tả role không được dịch: xem [BUG-B3-01](/bug_usability_findings_log.md) hoặc [Xem ảnh](cross_platform_screenshots/Screen_B3_Bug_Da_Ngon_Ngu.png) |
+| IA-01-04 | General UI | Đa ngôn ngữ (EN/VI) hoạt động đầy đủ, không bị dịch thiếu hoặc chồng lấp chữ. | Fail | Tên role tham dự và mô tả role không được dịch: xem [BUG-B3-01](/bug_usability_findings_log.md) hoặc [Xem ảnh](images/bug_screenshots/Screen_B3_Bug_Da_Ngon_Ngu.png) |
 | IA-01-05 | General UI | Trạng thái rỗng (Empty state) được hiển thị rõ ràng khi không có sự kiện/dữ liệu nào. | Pass | |
 | IA-01-06 | General UI | Trạng thái đang tải (Loading state/skeleton) hiển thị khi kéo dữ liệu chậm. | Pass | |
 | IA-01-07 | General UI | Trang web tương thích tốt và tự động co giãn (Responsive) trên màn hình. | Pass | |
@@ -189,16 +189,16 @@ Bạn đã chọn thực hiện chạy test trên các màn hình sau:
 | IA-03-11 | Navigation | Đường dẫn URL trên thanh địa chỉ thay đổi tương ứng khi chuyển đổi qua lại giữa các tab hoặc bộ lọc. | NA | |
 | IA-03-12 | Navigation | Giao diện kéo thả (Reorder) hiển thị biểu tượng tay cầm (drag handle) rõ ràng để gợi ý khả năng tương tác. | NA | |
 | **IA-04** | **Feedback** | **IA-04: Feedback & State (Toasts, Badges, Confirmations, Progress Bars, Status Colors)** | | |
-| IA-04-01 | Feedback | Thông báo nổi (Toasts) xuất hiện ngay sau khi thực hiện hành động và tự động tắt sau 3-5s. | Fail | Bấm đăng ký không hiện Toast: xem [BUG-B3-02](/bug_usability_findings_log.md) hoặc [Xem ảnh](cross_platform_screenshots/Screen_B3_Bug_Dang_Ki_Su_Kien_Khong_Hien_Toast.png) |
+| IA-04-01 | Feedback | Thông báo nổi (Toasts) xuất hiện ngay sau khi thực hiện hành động và tự động tắt sau 3-5s. | Fail | Bấm đăng ký không hiện Toast: xem [BUG-B3-02](/bug_usability_findings_log.md) hoặc [Xem ảnh](images/bug_screenshots/Screen_B3_Bug_Dang_Ki_Su_Kien_Khong_Hien_Toast.png) |
 | IA-04-02 | Feedback | Toasts có màu sắc phân biệt rõ ràng: Xanh (Thành công), Đỏ (Lỗi), Vàng (Cảnh báo). | Fail | Không xuất hiện Toast để kiểm tra màu sắc (Lỗi liên đới từ IA-04-01): xem [BUG-B3-02](/bug_usability_findings_log.md) |
 | IA-04-03 | Feedback | Hộp thoại xác nhận (Confirmation dialog) xuất hiện trước các hành động hủy/xóa quan trọng. | Pass | |
-| IA-04-04 | Feedback | Huy hiệu (Badges) hiển thị chính xác số lượng thông báo; trạng thái vé thay đổi tương ứng khi được phê duyệt/hủy. | Fail | Tải lại trang hiển thị sai số lượng vai trò đã đăng ký thành công (0/1): xem [BUG-B3-03](/bug_usability_findings_log.md) hoặc [Xem ảnh](cross_platform_screenshots/Screen_B3_Bug_Hien_Thi_Sai_So_Luong_Dang_Ky.png) |
+| IA-04-04 | Feedback | Huy hiệu (Badges) hiển thị chính xác số lượng thông báo; trạng thái vé thay đổi tương ứng khi được phê duyệt/hủy. | Fail | Tải lại trang hiển thị sai số lượng vai trò đã đăng ký thành công (0/1): xem [BUG-B3-03](/bug_usability_findings_log.md) hoặc [Xem ảnh](images/bug_screenshots/Screen_B3_Bug_Hien_Thi_Sai_So_Luong_Dang_Ky.png) |
 | IA-04-05 | Feedback | Thanh tiến trình (Progress bar) hoặc vòng xoay tải (Spinner) xuất hiện khi hệ thống xử lý. | Pass | |
 | IA-04-06 | Feedback | Trạng thái hiển thị màu sắc tương thích với ngữ nghĩa (Ví dụ: APPROVED màu xanh lá, REJECTED màu đỏ). | Pass | |
-| IA-04-07 | Feedback | Chấm đỏ thông báo (Notification dot) hiển thị động ngay khi có thay đổi trạng thái đăng ký. | Fail | Bấm đăng ký không hiển thị chấm thông báo Noti: xem [BUG-B3-04](/bug_usability_findings_log.md) hoặc [Xem ảnh](cross_platform_screenshots/Screen_B3_Bug_Dang_Ki_Su_Kien_Khong_Hien_Thong_Bao_Noti.png) |
+| IA-04-07 | Feedback | Chấm đỏ thông báo (Notification dot) hiển thị động ngay khi có thay đổi trạng thái đăng ký. | Fail | Bấm đăng ký không hiển thị chấm thông báo Noti: xem [BUG-B3-04](/bug_usability_findings_log.md) hoặc [Xem ảnh](images/bug_screenshots/Screen_B3_Bug_Dang_Ki_Su_Kien_Khong_Hien_Thong_Bao_Noti.png) |
 | IA-04-08 | Feedback | Hộp thoại chi tiết ảnh (Lightbox) mở rộng mượt mà khi click vào ảnh đính kèm. | NA | |
-| IA-04-09 | Feedback | Cập nhật dữ liệu thời gian thực (Real-time update) mà không cần người dùng reload trang. | Fail | Khi được phê duyệt, UI không tự cập nhật trạng thái mà phải F5: xem [BUG-B3-05](/bug_usability_findings_log.md) hoặc [Xem ảnh](cross_platform_screenshots/Screen_B3_Bug_Khong_Tu_Cap_Nhat_UI.png) |
-| IA-04-10 | Feedback | Hiển thị thông báo rõ ràng khi mất kết nối mạng Internet. | Fail | Không có thông báo gì khi bị ngắt kết nối internet: xem [BUG-B3-06](/bug_usability_findings_log.md) hoặc [Xem ảnh](cross_platform_screenshots/Screen_B3_Bug_Khong_Thong_Bao_Mat_Internet.png) |
+| IA-04-09 | Feedback | Cập nhật dữ liệu thời gian thực (Real-time update) mà không cần người dùng reload trang. | Fail | Khi được phê duyệt, UI không tự cập nhật trạng thái mà phải F5: xem [BUG-B3-05](/bug_usability_findings_log.md) hoặc [Xem ảnh](images/bug_screenshots/Screen_B3_Bug_Khong_Tu_Cap_Nhat_UI.png) |
+| IA-04-10 | Feedback | Hiển thị thông báo rõ ràng khi mất kết nối mạng Internet. | Fail | Không có thông báo gì khi bị ngắt kết nối internet: xem [BUG-B3-06](/bug_usability_findings_log.md) hoặc [Xem ảnh](images/bug_screenshots/Screen_B3_Bug_Khong_Thong_Bao_Mat_Internet.png) |
 | IA-04-11 | Feedback | Hệ thống vô hiệu hóa nút gửi hoặc ngăn chặn gửi dữ liệu trùng lặp khi người dùng click đúp nút Submit. | NA | |
 | IA-04-12 | Feedback | Mã QR/Barcode trên vé hiển thị rõ nét (không bị mờ), có kích thước tối thiểu đảm bảo quét được bằng ứng dụng camera thông thường. | NA | |
 | IA-04-13 | Feedback | Ô nhập liệu (text box) hiển thị hiệu ứng viền/nổi bật trực quan (focus state) khi nhấp chuột vào để người dùng nhận biết rõ ràng đang thao tác/nhập liệu. | Pass | |
@@ -240,7 +240,7 @@ Bạn đã chọn thực hiện chạy test trên các màn hình sau:
 #### Vấn đề 1: [Tên vấn đề Usability]
 *   **Mức độ nghiêm trọng (Severity):** [0 - 4]
 *   **Mô tả:** [Người dùng bị bối rối ở bước nào, tại sao họ không tìm thấy nút...]
-*   **Ảnh chụp minh chứng:** ![Minh chứng lỗi usability](cross_platform_screenshots/usab_finding_01.png)
+*   **Ảnh chụp minh chứng:** ![Minh chứng lỗi usability](images/bug_screenshots/usab_finding_01.png)
 *   **Đề xuất cải tiến:** [Thay đổi vị trí nút, làm nổi bật nhãn, thêm tooltip hướng dẫn...]
 
 ---
