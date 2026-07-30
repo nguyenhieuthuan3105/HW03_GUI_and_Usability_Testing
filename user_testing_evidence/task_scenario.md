@@ -29,7 +29,7 @@
 > 1. Đăng nhập vào hệ thống EMS với tư cách là Sinh viên. Tài khoản được lưu sẵn.
 > 2. Tìm kiếm buổi **USING AI AGENT CONVERSATION** đó.
 > 3. Xem thông tin chi tiết về thời gian, địa điểm, diễn giả và lịch trình xem có phù hợp không.
-> 4. Đăng ký tham gia buổi workshop với vai trò chính là **Sinh viên (Student)** và đăng ký thêm vai trò phụ là **Khách tham quan (Visitor)** nếu có.
+> 4. Đăng ký tham gia buổi workshop với vai trò chính là **Người tham dự (Participant)** và đăng ký thêm vai trò phụ là **Khách tham quan (Visitor)** nếu có.
 > 5. Chờ xác nhận từ admin của hệ thống (Khoảng 1 phút).
 > 6. Sau khi đăng ký thành công, hãy tìm cách mở mã **QR cá nhân** trên màn hình thiết bị của bạn để sẵn sàng đưa cho Ban tổ chức quét mã vào cửa."
 

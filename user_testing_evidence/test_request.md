@@ -23,7 +23,7 @@ Cảm ơn bạn đã dành thời gian tham gia buổi thử nghiệm khả năn
 2. **Tìm kiếm** buổi workshop **USING AI AGENT CONVERSATION** trên giao diện.
 3. **Xem thông tin chi tiết** về thời gian, địa điểm, diễn giả và lịch trình của buổi workshop xem có phù hợp với bạn không.
 4. **Đăng ký tham gia** buổi workshop:
-   - Chọn vai trò chính: **Sinh viên (Student)**.
+   - Chọn vai trò chính: **Người tham dự (Participant)**.
    - Chọn vai trò phụ (nếu có): **Khách tham quan (Visitor)**.
    - Tích chọn xác nhận các điều khoản và bấm nộp biểu mẫu.
 5. **Chờ xác nhận** từ Admin của hệ thống _(Khoảng 1 phút)_.

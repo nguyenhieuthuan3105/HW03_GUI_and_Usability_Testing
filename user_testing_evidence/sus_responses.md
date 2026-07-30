@@ -1,11 +1,10 @@
 # PHIẾU KHẢO SÁT VÀ TÍNH ĐIỂM SUS (SYSTEM USABILITY SCALE)
 
-> [!NOTE]
-> Ghi nhận câu trả lời khảo sát và công thức tính toán điểm System Usability Scale (SUS) cho 5 người dùng thử nghiệm.
+**Ghi nhận câu trả lời khảo sát và công thức tính toán điểm System Usability Scale (SUS) cho 5 người dùng thử nghiệm.**
 
 ---
 
-## 📋 1. DANH SÁCH 10 CÂU HỎI ĐÁNH GIÁ SUS
+## 1. DANH SÁCH 10 CÂU HỎI ĐÁNH GIÁ SUS
 
 Người dùng đánh giá từng câu theo thang điểm Likert từ **1 (Rất không đồng ý)** đến **5 (Rất đồng ý)**:
 
@@ -22,7 +21,7 @@ Người dùng đánh giá từng câu theo thang điểm Likert từ **1 (Rất
 
 ---
 
-## 🧮 2. CÔNG THỨC TÍNH ĐIỂM SUS CHUẨN
+## 2. CÔNG THỨC TÍNH ĐIỂM SUS CHUẨN
 
 * **Đối với các câu hỏi LẺ (Q1, Q3, Q5, Q7, Q9):** Điểm quy đổi = $\text{Điểm đánh giá} - 1$
 * **Đối với các câu hỏi CHẴN (Q2, Q4, Q6, Q8, Q10):** Điểm quy đổi = $5 - \text{Điểm đánh giá}$
@@ -31,30 +30,30 @@ Người dùng đánh giá từng câu theo thang điểm Likert từ **1 (Rất
 
 ---
 
-## 📊 3. BẢNG GHI NHẬN VÀ TÍNH ĐIỂM CỦA 5 NGƯỜI DÙNG
+## 3. BẢNG GHI NHẬN VÀ TÍNH ĐIỂM CỦA 5 NGƯỜI DÙNG
 
 | STT | Câu hỏi | User 1 | User 2 | User 3 | User 4 | User 5 | Trung bình điểm gốc |
 |---|---|---|---|---|---|---|---|
-| **Q1** | Thích sử dụng thường xuyên (Lẻ) | `[1-5]` | `[1-5]` | `[1-5]` | `[1-5]` | `[1-5]` | `[0.0]` |
-| **Q2** | Phức tạp không cần thiết (Chẵn) | `[1-5]` | `[1-5]` | `[1-5]` | `[1-5]` | `[1-5]` | `[0.0]` |
-| **Q3** | Dễ sử dụng (Lẻ) | `[1-5]` | `[1-5]` | `[1-5]` | `[1-5]` | `[1-5]` | `[0.0]` |
-| **Q4** | Cần hỗ trợ kỹ thuật (Chẵn) | `[1-5]` | `[1-5]` | `[1-5]` | `[1-5]` | `[1-5]` | `[0.0]` |
-| **Q5** | Chức năng tích hợp tốt (Lẻ) | `[1-5]` | `[1-5]` | `[1-5]` | `[1-5]` | `[1-5]` | `[0.0]` |
-| **Q6** | Bất nhất trong hệ thống (Chẵn) | `[1-5]` | `[1-5]` | `[1-5]` | `[1-5]` | `[1-5]` | `[0.0]` |
-| **Q7** | Học cách dùng nhanh (Lẻ) | `[1-5]` | `[1-5]` | `[1-5]` | `[1-5]` | `[1-5]` | `[0.0]` |
-| **Q8** | Cồng kềnh/khó dùng (Chẵn) | `[1-5]` | `[1-5]` | `[1-5]` | `[1-5]` | `[1-5]` | `[0.0]` |
-| **Q9** | Tự tin khi sử dụng (Lẻ) | `[1-5]` | `[1-5]` | `[1-5]` | `[1-5]` | `[1-5]` | `[0.0]` |
-| **Q10** | Cần học nhiều trước khi dùng (Chẵn) | `[1-5]` | `[1-5]` | `[1-5]` | `[1-5]` | `[1-5]` | `[0.0]` |
-| **Sum** | **Tổng điểm quy đổi (0-40)** | **`0`** | **`0`** | **`0`** | **`0`** | **`0`** | - |
-| **SUS** | **ĐIỂM SUS CÁ NHÂN (0-100)** | **`0.0`** | **`0.0`** | **`0.0`** | **`0.0`** | **`0.0`** | - |
+| **Q1** | Thích sử dụng thường xuyên (Lẻ) | 4 | 1 | `[1-5]` | `[1-5]` | `[1-5]` | `[0.0]` |
+| **Q2** | Phức tạp không cần thiết (Chẵn) | 1 | 5 | `[1-5]` | `[1-5]` | `[1-5]` | `[0.0]` |
+| **Q3** | Dễ sử dụng (Lẻ) | 5 | 1 | `[1-5]` | `[1-5]` | `[1-5]` | `[0.0]` |
+| **Q4** | Cần hỗ trợ kỹ thuật (Chẵn) | 1 | 5 | `[1-5]` | `[1-5]` | `[1-5]` | `[0.0]` |
+| **Q5** | Chức năng tích hợp tốt (Lẻ) | 3 | 3 | `[1-5]` | `[1-5]` | `[1-5]` | `[0.0]` |
+| **Q6** | Bất nhất trong hệ thống (Chẵn) | 3 | 4 | `[1-5]` | `[1-5]` | `[1-5]` | `[0.0]` |
+| **Q7** | Học cách dùng nhanh (Lẻ) | 5 | 3 | `[1-5]` | `[1-5]` | `[1-5]` | `[0.0]` |
+| **Q8** | Cồng kềnh/khó dùng (Chẵn) | 2 | 4 | `[1-5]` | `[1-5]` | `[1-5]` | `[0.0]` |
+| **Q9** | Tự tin khi sử dụng (Lẻ) | 3 | 2 | `[1-5]` | `[1-5]` | `[1-5]` | `[0.0]` |
+| **Q10** | Cần học nhiều trước khi dùng (Chẵn) | 2 | 5 | `[1-5]` | `[1-5]` | `[1-5]` | `[0.0]` |
+| **Sum** | **Tổng điểm quy đổi (0-40)** | **`31`** | **`7`** | **`0`** | **`0`** | **`0`** | - |
+| **SUS** | **ĐIỂM SUS CÁ NHÂN (0-100)** | **`77.5`** | **`17.5`** | **`0.0`** | **`0.0`** | **`0.0`** | - |
 
 ---
 
-### 🏆 ĐIỂM SUS TRUNG BÌNH TOÀN HỆ THỐNG: `[... / 100]`
+### ĐIỂM SUS TRUNG BÌNH TOÀN HỆ THỐNG: `[... / 100]`
 
 ---
 
-## 📈 4. THANG ĐO VÀ XẾP LOẠI ĐIỂM SUS (BENCHMARK INTERPRETATION)
+## 4. THANG ĐO VÀ XẾP LOẠI ĐIỂM SUS (BENCHMARK INTERPRETATION)
 
 * **> 80.3 điểm (Grade A / Excellent):** Trải nghiệm xuất sắc, người dùng rất hài lòng.
 * **68.0 – 80.2 điểm (Grade B / Good):** Trải nghiệm tốt, vượt mức trung bình ngành.
