@@ -11,9 +11,9 @@
 | ----- | --------------------- | --------------- | ------------------------------------------ | ------------------ | -------------------------- |
 | **1** | Nguyễn Đ. M. D        | Sinh viên FIT   | `088****119` / `ndmduy23@clc.fitus.edu.vn` | Cao                | Desktop (Windows / Chrome) |
 | **2** | Nguyễn V. M. Q        | Sinh viên FIT   | `077****444` / `nvmquang23@clc.fitus.edu.vn` | Cao                | Desktop (Windows / Chrome) |
-| **3** | User 3 (Lê V. C) | Cựu sinh viên | `0988***112` / `cvl***@gmail.com` | Cao | Mobile (Android / Chrome) |
-| **4** | User 4 (Phạm T. D) | Nhân viên VP | `0977***334` / `dtp***@gmail.com` | Cao | Mobile (iOS / Safari) |
-| **5** | User 5 (Hoàng V. E) | Học sinh cấp 3 | `0933***556` / `evh***@gmail.com` | Thấp | Tablet (Android / Chrome) |
+| **3** | Trần K. C             | Sinh viên FIT   | `082****788` / `tkchi23@clc.fitus.edu.vn` | Cao                | Desktop (Windows / Chrome) |
+| **4** | Phạm T. T             | Sinh viên       | `081****981` / `phamthanhtin1210@gmail.com` | Cao                | Desktop (Windows / Brave)  |
+| **5** | Hoàng V. E            | Học sinh cấp 3  | `0933***556` / `evh***@gmail.com`          | Trung bình               | Tablet (Android / Chrome)  |
 
 ---
 
@@ -80,47 +80,63 @@
 
 ---
 
-## 3. NGƯỜI DÙNG 3 (User 3 - Lê V. C)
-* **Thời gian bắt đầu:** `[HH:MM]` | **Thời gian kết thúc:** `[HH:MM]` | **Tổng thời gian:** `[... giây]`
-* **Trạng thái hoàn thành (Task Success):** `[Completed / Partial / Failed]`
-* **Số lần do dự / Thao tác lỗi (Error & Hesitation Count):** `[... lần]`
+## 3. NGƯỜI DÙNG 3 (User 3 - Trần K. C)
+* **Thời gian bắt đầu:** `07:35:00` | **Thời gian kết thúc:** `07:37:18` | **Tổng thời gian:** `138 giây`
+* **Trạng thái hoàn thành (Task Success):** `Completed`
+* **Số lần do dự / Thao tác lỗi (Error & Hesitation Count):** `2 lần`
 
 ### A. Nhật ký hành vi chi tiết (Timeline & Action Log):
-* **`00:10` - `00:30` (Màn hình B1):** `[Ghi chép hành vi...]`
-* **`00:30` - `01:00` (Màn hình B2):** `[Ghi chép hành vi...]`
-* **`01:00` - `01:45` (Màn hình B3):** `[Ghi chép hành vi...]`
-* **`01:45` - `02:20` (Phê duyệt & Màn hình B4):** `[Ghi chép hành vi...]`
+* **`00:08` - `00:11` (Màn hình Đăng nhập):** Truy cập thành công trang chủ bằng tài khoản Sinh viên.
+* **`00:12` - `00:28` (Màn hình B1):** Nhập sự kiện và dán vào thanh tìm kiếm. Hệ thống tự lọc theo thời gian thực và tìm được sự kiện đích.
+* **`00:29` - `01:04` (Màn hình B2):** Click vào sự kiện để xem chi tiết. Tìm hiểu các thông tin cơ bản của sự kiện.
+* **`01:05` - `01:25` (Màn hình B3):** Lướt xuống dưới màn hình B3. Tiến hành đăng ký sự kiện và chờ Admin duyệt.
+* **`01:26` - `01:50` (Màn hình B3 -> Màn hình B4):** Admin duyệt thành công. Truy cập trang cá nhân để mở mã QR vé. Đã truy cập được vào trang Hồ sơ cá nhân nhưng tìm không thấy QR. (Lỗi)
+* **`01:51` - `02:10` (Màn hình B2 - B3):** Tìm kiếm lại trong trang chi tiết sự kiện nhưng vẫn không thấy QR. (Lỗi)
+* **`02:11` - `02:18` (Màn hình B4):** Truy cập lại trang cá nhân để mở mã QR vé. Đã tìm thấy và mở được mã QR.
 
 ### B. Phát ngôn & Cảm xúc (Think-Aloud Verbalization):
-* `"[Trích dẫn câu nói của người dùng 3...]"`
+* *"Cái thanh tìm kiếm nhìn là thấy trừ điểm rồi đó."*
+* *"Thông tin diễn giả đâu?"*
+* *"Đăng ký thành công mà không thấy thông báo cụ thể gì."*
+* *"Giao diện nhìn hơi sai sai, cơ mà đẹp hơn web trường là được rồi."*
+* *"QR đâu rồi?"*
+* *"Để cái QR ở chỗ khó nhìn thật."*
+* *"Nói chung là cần cải thiện thêm UI/UX."*
 
 ### C. Trả lời 4 câu hỏi thăm dò (Probe Questions):
-1. **Clarity:** `[Nội dung...]`
-2. **Error Recovery:** `[Nội dung...]`
-3. **Speed & Flow:** `[Nội dung...]`
-4. **Trust:** `[Nội dung...]`
+1. **Clarity:** `Tôi thấy phần hiển thị sự kiện cũng tạm ổn.`
+2. **Error Recovery:** `Tôi không thao tác sai gì nên cũng không rõ.`
+3. **Speed & Flow:** `Nói chung là cũng nhanh, mượt.`
+4. **Trust:** `Đây không phải là 1 web chính thống của trường nên tôi cũng khá quan ngại về bảo mật thông tin cá nhân.`
 
 ---
 
-## 4. NGƯỜI DÙNG 4 (User 4 - Phạm T. D)
-* **Thời gian bắt đầu:** `[HH:MM]` | **Thời gian kết thúc:** `[HH:MM]` | **Tổng thời gian:** `[... giây]`
-* **Trạng thái hoàn thành (Task Success):** `[Completed / Partial / Failed]`
-* **Số lần do dự / Thao tác lỗi (Error & Hesitation Count):** `[... lần]`
+## 4. NGƯỜI DÙNG 4 (User 4 - Phạm T. T)
+* **Thời gian bắt đầu:** `15:30:00` | **Thời gian kết thúc:** `15:32:35` | **Tổng thời gian:** `155 giây`
+* **Trạng thái hoàn thành (Task Success):** `Completed`
+* **Số lần do dự / Thao tác lỗi (Error & Hesitation Count):** `0 lần`
 
 ### A. Nhật ký hành vi chi tiết (Timeline & Action Log):
-* **`00:10` - `00:35` (Màn hình B1):** `[Ghi chép hành vi...]`
-* **`00:35` - `01:10` (Màn hình B2):** `[Ghi chép hành vi...]`
-* **`01:10` - `01:50` (Màn hình B3):** `[Ghi chép hành vi...]`
-* **`01:50` - `02:30` (Phê duyệt & Màn hình B4):** `[Ghi chép hành vi...]`
+* **`00:00` - `00:26` (Màn hình Đăng nhập):** Truy cập thành công trang chủ bằng tài khoản Sinh viên.
+* **`00:27` - `01:07` (Màn hình B1):** Lướt tìm trong trang sự kiện và tìm được sự kiện đích.
+* **`01:08` - `01:24` (Màn hình B2):** Click vào sự kiện để xem chi tiết. Tìm hiểu các thông tin cơ bản của sự kiện.
+* **`01:25` - `01:47` (Màn hình B3):** Lướt xuống dưới màn hình B3. Tiến hành đăng ký sự kiện và chờ Admin duyệt.
+* **`01:48` - `02:04` (Màn hình B3 -> Màn hình B4):** Admin duyệt thành công. Bấm vào thông báo hiển thị đã đăng ký thành công. Hệ thống dẫn lại về trang chi tiết sự kiện đã đăng ký.
+* **`02:05` - `02:35` (Màn hình B4):** Truy cập lại trang cá nhân để mở mã QR vé. Đã tìm thấy và mở được mã QR.
 
 ### B. Phát ngôn & Cảm xúc (Think-Aloud Verbalization):
-* `"[Trích dẫn câu nói của người dùng 4...]"`
+* *"Tài khoản này có thật không vậy?"*
+* *"Cái bố cục nhìn hơi bị kì lạ."*
+* *"Hình như bị thiếu thông tin diễn giả."*
+* *"Approved rồi nè."*
+* *"Bước cuối làm sao Thuận?"*
+* *"À tui tự tìm được nè."*
 
 ### C. Trả lời 4 câu hỏi thăm dò (Probe Questions):
-1. **Clarity:** `[Nội dung...]`
-2. **Error Recovery:** `[Nội dung...]`
-3. **Speed & Flow:** `[Nội dung...]`
-4. **Trust:** `[Nội dung...]`
+1. **Clarity:** `Có khá nhiều chi tiết làm tôi cảm thấy bối rối, cả về mặt bố cục lẫn màu sắc và nội dung.`
+2. **Error Recovery:** `Tôi không thao tác sai nên không biết.`
+3. **Speed & Flow:** `Web khá mượt.`
+4. **Trust:** `Tôi không tin tưởng để nhập thông tin cá nhân.`
 
 ---
 

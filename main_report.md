@@ -233,8 +233,8 @@ _(Thông tin 5 người dùng thật ngoài lớp học, số điện thoại v�
 | ----- | --------------------- | --------------- | ------------------------------------------ | ------------------ | -------------------------- |
 | **1** | Nguyễn Đ. M. D        | Sinh viên FIT   | `088****119` / `ndmduy23@clc.fitus.edu.vn` | Cao                | Desktop (Windows / Chrome) |
 | **2** | Nguyễn V. M. Q        | Sinh viên FIT   | `077****444` / `nvmquang23@clc.fitus.edu.vn` | Cao                | Desktop (Windows / Chrome) |
-| **3** | Lê V. C               | Cựu sinh viên   | `0988***112` / `cvl***@gmail.com`          | Cao                | Mobile (Android / Chrome)  |
-| **4** | Phạm T. D             | Nhân viên VP    | `0977***334` / `dtp***@gmail.com`          | Cao                | Mobile (iOS / Safari)      |
+| **3** | Trần K. C               | Sinh viên FIT   | `082****788` / `tkchi23@clc.fitus.edu.vn`  | Cao                | Desktop (Windows / Chrome) |
+| **4** | Phạm T. T             | Sinh viên       | `081****981` / `phamthanhtin1210@gmail.com` | Cao                | Desktop (Windows / Brave)  |
 | **5** | Hoàng V. E            | Học sinh cấp 3  | `0933***556` / `evh***@gmail.com`          | Trung bình               | Tablet (Android / Chrome)  |
 
 ### 3. Bảng Chỉ Số Đo Lường Usability (Metrics Table)
@@ -243,8 +243,8 @@ _(Thông tin 5 người dùng thật ngoài lớp học, số điện thoại v�
 | -------------- | ---------------------------------------------------- | --------------------------- | --------------------------- | ----------------- | ------------------------------------------------- |
 | **User 1**     | `Completed`                                          | `361s`                      | `3 lần`                     | `77.5 / 100`      | Đăng nhập nhầm tài khoản Admin; hoang mang khi tìm vị trí mã QR trong Hồ sơ cá nhân. |
 | **User 2**     | `Completed`                                          | `211s`                      | `2 lần`                     | `17.5 / 100`      | Gặp trở ngại lớn khi tìm mã QR (vào màn hình Hướng dẫn không thấy), bực bội vị trí QR. |
-| **User 3**     | `[Completed / Partial / Failed]`                     | `[...s]`                    | `[... lần]`                 | `[... / 100]`     | `[Ghi chú...]`                                    |
-| **User 4**     | `[Completed / Partial / Failed]`                     | `[...s]`                    | `[... lần]`                 | `[... / 100]`     | `[Ghi chú...]`                                    |
+| **User 3**     | `Completed`                                          | `138s`                      | `2 lần`                     | `50.0 / 100`      | Phàn nàn thanh tìm kiếm xấu; lúng túng khi đi tìm mã QR (quay lại trang chi tiết B2). |
+| **User 4**     | `Completed`                                          | `155s`                      | `0 lần`                     | `5.0 / 100`       | Bối rối về bố cục và màu sắc; bấm thông báo bị dẫn về B2 rồi mới mò ra mã QR ở Hồ sơ. |
 | **User 5**     | `[Completed / Partial / Failed]`                     | `[...s]`                    | `[... lần]`                 | `[... / 100]`     | `[Ghi chú...]`                                    |
 | **TRUNG BÌNH** | **`[...% Completed]`**                               | **`[... giây]`**            | **`[... lần]`**             | **`[... / 100]`** | **Xếp loại UX:** `[Excellent / Good / OK / Poor]` |
 

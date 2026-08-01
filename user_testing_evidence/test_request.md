@@ -33,4 +33,6 @@ Cảm ơn bạn đã dành thời gian tham gia buổi thử nghiệm khả năn
 
 **Sau khi hoàn thành:** Xin vui lòng dành khoảng 2 phút để hoàn thành một phiếu khảo sát 10 câu hỏi ngắn (System Usability Scale) và trả lời một vài câu hỏi cảm nhận nhanh.
 
+**Link khảo sát:** [Link khảo sát](https://forms.gle/vx1jXAuhfaVhYsgE8)
+
 **Chân thành cảm ơn sự hỗ trợ của bạn!**
