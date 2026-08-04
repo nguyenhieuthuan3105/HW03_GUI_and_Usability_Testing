@@ -12,7 +12,7 @@
 | **2** | **Task 2 — User testing** with 5 real users (scenario + 5 sessions + analysis -> Usability Report) | 25 | | [main_report.md#phan-3-bao-cao-usability-testing](file:///d:/STD/Y3/Y3S3/KiemThuPM/hw/hw3/main_report.md#phan-3-bao-cao-usability-testing)<br>Thư mục [user_testing_evidence/](file:///d:/STD/Y3/Y3S3/KiemThuPM/hw/hw3/user_testing_evidence/) |
 | **3** | **Task 3 — Cross-Browser / Cross-Platform matrix** (3 OS × 5 browsers × 3 device classes) | 25 | | [main_report.md#phan-4-bao-cao-da-nen-tang](file:///d:/STD/Y3/Y3S3/KiemThuPM/hw/hw3/main_report.md#phan-4-bao-cao-da-nen-tang)<br>Thư mục [cross_platform_screenshots/](file:///d:/STD/Y3/Y3S3/KiemThuPM/hw/hw3/cross_platform_screenshots/) |
 | **4** | **Bug & Usability Findings submission** (Google Form) + aggregated log | 10 | | [bug_usability_findings_log.md](file:///d:/STD/Y3/Y3S3/KiemThuPM/hw/hw3/bug_usability_findings_log.md) |
-| **5** | **Agent Skills** (Mã nguồn tự động hóa + link video YouTube demo) | 10 | | [agent_skills/](file:///d:/STD/Y3/Y3S3/KiemThuPM/hw/hw3/agent_skills/) |
+| **5** | **Agent Skills** (Mã nguồn tự động hóa + link video YouTube demo) | 10 | 10 / 10 | [agent_skills/skills_demo.md](agent_skills/skills_demo.md)<br>[agent_skills/gui_testing.md](agent_skills/gui_testing.md) |
 | | **TỔNG CỘNG** | **100** | **0 / 100** | *(Cập nhật điểm tự đánh giá trước khi nén zip)* |
 
 ---

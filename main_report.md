@@ -332,3 +332,16 @@ Ma trận được xây dựng chi tiết cho từng màn hình (**Screen B1, B2
 #### C. Tổng hợp Lỗi tương thích nổi bật (Cross-Platform Defects):
 
 - Trang web được thiết kế khá tốt về mặt hiển thị đối với các trình duyệt trên Desktop, Mobile và Tablet. Không gặp phải lỗi hình ảnh gì quá nghiêm trọng.
+
+---
+
+## PHẦN 5: CÔNG CỤ TỰ ĐỘNG HÓA (AGENT SKILLS AUTOMATION)
+
+Toàn bộ quá trình hỗ trợ điều phối kiểm thử GUI, rà soát checklist Heuristics, trích xuất log lỗi và chụp ảnh ma trận tương thích đa trình duyệt trong báo cáo này được tự động hóa bằng bộ **Agent Skills** đặt tại thư mục [agent_skills/](agent_skills/).
+
+- **Mã nguồn tự động kiểm thử màn hình & chụp ảnh bug:** [agent_skills/testing_screen.js](agent_skills/testing_screen.js)
+- **Mã nguồn chụp ma trận đa trình duyệt Desktop:** [agent_skills/testing_browser_screen.js](agent_skills/testing_browser_screen.js)
+- **Quy chuẩn điều phối AI Agent Master Orchestration:** [agent_skills/gui_testing.md](agent_skills/gui_testing.md)
+- **Đặc tả kịch bản & Đầu vào linh hoạt:** [agent_skills/spec.md](agent_skills/spec.md)
+- **Báo cáo mô tả chi tiết & Link Video YouTube Demo:** [agent_skills/skills_demo.md](agent_skills/skills_demo.md)
+

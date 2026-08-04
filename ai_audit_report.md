@@ -335,6 +335,177 @@ Mỗi phiên tương tác với AI hỗ trợ thực hiện bài tập lớn đ�
     Màn hình B3 (Registration Form):
     Link ảnh minh chứng: images/cross_platform_screenshots/<dieu_kien>_B3.png
     ```
+
+### Promt 12:
+*   **Công cụ AI sử dụng:** Gemini 3.6 Flash (High) (Antigravity IDE)
+*   **Ngày giờ tương tác:** 15:03 01/08/2026
+*   **Câu lệnh đã hỏi (Prompt):**
+    ```text
+    tôi tính tạo gg form cho 10 câu hỏi điểm số và 4 câu trả lời ngắn để import link cho người dùng khảo sát cho dễ, tôi nên làm thế nào. [sus_responses.md](file;file:///d%3A/STD/Y3/Y3S3/KiemThuPM/hw/hw3/user_testing_evidence/sus_responses.md) [task_scenario.md](file;file:///d%3A/STD/Y3/Y3S3/KiemThuPM/hw/hw3/user_testing_evidence/task_scenario.md) 
+    ```
+
+*   **Kết quả phản hồi của AI (Output):** 
+    ```text
+    🛠️ HƯỚNG DẪN TẠO GOOGLE FORM TỪNG BƯỚC
+    Bạn truy cập forms.google.com $\rightarrow$ Tạo Biểu mẫu trống mới (Blank Form) và điền thông tin theo các phần sau:
+    📌 PHẦN 1: TIÊU ĐỀ & THÔNG TIN DỰ ÁN
+    Tiêu đề biểu mẫu (Form Title): Khảo sát Trải nghiệm Người dùng (Usability Survey) - Hệ thống EMS
+    Mô tả biểu mẫu (Description):
+    "Cảm ơn bạn đã tham gia buổi thử nghiệm hệ thống EMS. Xin vui lòng dành 2 phút điền vào phiếu khảo sát bên dưới để giúp nhóm đánh giá và cải thiện trải nghiệm giao diện hệ thống. Mọi câu trả lời đều mang lại giá trị rất lớn cho bài tập."
+    📌 PHẦN 2: THÔNG TIN NGƯỜI THAM GIA (1 Câu)
+    Câu hỏi 1: Họ và tên hoặc Email/SĐT của bạn
+    Loại câu hỏi: Trả lời ngắn (Short answer)
+    Mục đích: Để bạn dễ dàng ánh xạ câu trả lời với User 1, User 2, User 3, User 4, User 5 trong file observation_notes.md.
+    📌 PHẦN 3: 10 CÂU HỎI ĐÁNH GIÁ SUS (System Usability Scale)
+    TIP
+    Cấu hình loại câu hỏi chung cho cả 10 câu:
+    Chọn loại câu hỏi: Thang đo tuyến tính (Linear scale)
+    Giá trị: Từ 1 đến 5
+    Nhãn 1: Rất không đồng ý (Strongly Disagree)
+    Nhãn 5: Rất đồng ý (Strongly Agree)
+    Bật cờ: Bắt buộc (Required)
+    Copy-paste 10 câu hỏi sau vào từng câu trong Form:
+    Q1: Tôi nghĩ rằng tôi sẽ thích sử dụng hệ thống này thường xuyên.
+    Q2: Tôi thấy hệ thống này phức tạp một cách không cần thiết.
+    Q3: Tôi nghĩ hệ thống này dễ sử dụng.
+    Q4: Tôi nghĩ rằng tôi cần sự hỗ trợ của một kỹ thuật viên để có thể sử dụng hệ thống này.
+    Q5: Tôi thấy các chức năng trong hệ thống này được tích hợp rất tốt.
+    Q6: Tôi nghĩ rằng có quá nhiều sự bất nhất trong hệ thống này.
+    Q7: Tôi tưởng tượng rằng hầu hết mọi người sẽ học cách sử dụng hệ thống này rất nhanh.
+    Q8: Tôi thấy hệ thống rất cồng kềnh/khó sử dụng.
+    Q9: Tôi cảm thấy rất tự tin khi sử dụng hệ thống.
+    Q10: Tôi cần phải học hỏi nhiều thứ trước khi có thể bắt đầu sử dụng hệ thống này.
+    📌 PHẦN 4: 4 CÂU HỎI THĂM DÒ MỞ RỘNG (Probe Questions)
+    Cấu hình loại câu hỏi chung cho 4 câu này:
+    Chọn loại câu hỏi: Đoạn văn (Paragraph) hoặc Trả lời ngắn (Short answer)
+    Câu hỏi 1 (Tính rõ ràng - Clarity):
+    Bạn thấy các thông tin về sự kiện (lịch trình, vai trò, số chỗ) trên trang web có dễ tìm và dễ hiểu không? Có chi tiết nào khiến bạn bối rối không?
+    Câu hỏi 2 (Khắc phục lỗi - Error Recovery):
+    Trong quá trình điền form hay tìm kiếm sự kiện, nếu thao tác sai hoặc thiếu thông tin, bạn có nhận biết được lỗi ngay không và hệ thống hỗ trợ bạn sửa thế nào?
+    Câu hỏi 3 (Tốc độ & Tính liên tục - Speed & Flow):
+    Bạn đánh giá thế nào về tốc độ phản hồi của trang web khi chuyển từ tìm kiếm sự kiện -> xem chi tiết -> đăng ký -> nhận vé QR?
+    Câu hỏi 4 (Độ tin tưởng - Trust):
+    Bạn có cảm thấy tin tưởng và an tâm khi nhập thông tin cá nhân cũng như nhận vé QR điện tử từ hệ thống này không?
+    ```
+
+### Promt 13:
+*   **Công cụ AI sử dụng:** Gemini 3.6 Flash (High) (Antigravity IDE)
+*   **Ngày giờ tương tác:** 10:07 03/08/2026
+*   **Câu lệnh đã hỏi (Prompt):**
+    ```text
+    [guiding.md](file;file:///d%3A/STD/Y3/Y3S3/KiemThuPM/hw/hw3/support/guiding.md) [2026.HW03.GUI%20Usability%20EMS_En.pdf](file;file:///d%3A/STD/Y3/Y3S3/KiemThuPM/hw/hw3/hw_request/2026.HW03.GUI%20Usability%20EMS_En.pdf) [2026.HW03.GUI%20Usability%20EMS_En.pdf](file;file:///d%3A/STD/Y3/Y3S3/KiemThuPM/hw/hw3/hw_request/2026.HW03.GUI%20Usability%20EMS_En.pdf) hãy rà soát lại thật kĩ phần agent_skills và cho tôi biết chính xác phần agent skill này muốn tôi làm gì? đầu vào là gì? đầu ra là gì? gồm các files nào, nội dung ra sao?
+    ```
+
+*   **Kết quả phản hồi của AI (Output):** 
+    ```text
+    1. PHẦN AGENT SKILL LÀ GÌ? MỤC ĐÍCH ĐỂ LÀM GÌ?
+    Bản chất: Đây là Phần làm thêm Nâng cao / Tùy chọn (Advanced Deliverable - Chiếm 10% tổng số điểm bài tập).
+    Mục đích: Viết một đoạn mã script tự động hóa (Automation Script / Agent Skill) bằng các công cụ kiểm thử như Playwright, Puppeteer, Selenium hoặc Cypress để tự động hóa các thao tác lặp đi lặp lại trên hệ thống EMS.
+    Ví dụ ứng dụng thực tế:
+    Tự động mở trình duyệt $\rightarrow$ co giãn kích thước màn hình theo Desktop/Phone/Tablet $\rightarrow$ Chụp ảnh lưu vào thư mục cross_platform_screenshots/.
+    Tự động điền dữ liệu test biên vào Form đăng ký B3 và kiểm tra thông báo lỗi.
+    📥 2. ĐẦU VÀO (INPUTS)
+    Địa chỉ trang web SUT: Link ngrok EMS (https://promoter-starboard-prude.ngrok-free.dev/).
+    Kịch bản tự động hóa: Các màn hình (B1, B2, B3) và các thao tác cần tự động (Click, Scroll, Resize, Screenshot, Fill form).
+    Thư viện chạy: Node.js + Playwright / Puppeteer.
+    📤 3. ĐẦU RA (OUTPUTS)
+    Mã nguồn tự động hóa: File script .js hoặc .ts nằm trong thư mục agent_skills/.
+    Kết quả đầu ra: Các tệp ảnh chụp màn hình tự động hoặc log kết quả kiểm thử trên Terminal.
+    Báo cáo mô tả & Video Demo (skills_demo.md): File Markdown giải thích công nghệ + Đường link Video YouTube quay lại màn hình khi chạy script tự động.
+    ```
+
+
+### Promt 14:
+*   **Công cụ AI sử dụng:** Gemini 3.6 Flash (High) (Antigravity IDE)
+*   **Ngày giờ tương tác:** 10:52 03/08/2026
+*   **Câu lệnh đã hỏi (Prompt):**
+    ```text
+    tôi muốn bạn tạo cho tôi 1 bản hoàn chỉnh bao gồm:
+    * 1 file script testing_screen với toàn bộ các thao tác cần thiết trên màn hình để test, chụp lại các bug và lấy dữ liệu điền được vào gui_checklist (sử dụng puppeteer hay cái /browser có sẵn của antigravity, bạn tôi bảo xài cái /browser chụp ngon hơn pupperteer)
+    * 1 file script testing_browser_screen truy cập vào từng browser trên desktop: opera, chrome, edge và firefox để test và chụp màn hình minh chứng từng màn hình yêu cầu (ví dụ màn hình B1, B2, B3 thì chụp mỗi browser 3 màn hình) lấy dữ liệu điền được vào main_report (sử dụng cái /browser có sẵn của antigravity, bạn tôi bảo xài cái /browser chụp ngon hơn pupperteer)
+    * 1 file gui_testing.md làm chuẩn, trong đó chứa toàn bộ các cấu trúc mà AI sẽ phải thực hiện, điều phối và cho ra kết quả, cụ thể:
+    - Nhận file shared_gui_checklist.md làm chuẩn đầu vào để vẽ bảng 1A cho toàn bộ các màn hình.
+    - Nhận file hoặc đặc tả text về scenerio và các màn hình từ user.
+    --Trả về các file:
+    - File main_report theo đúng cấu trúc của file main report hiện tại, (bạn có thể lấy chính format hiện tại của file main_report hiện tại để ép AI sinh ra format y chang)
+    + Tạo ra các bảng phần 1A dựa trên file gui_checklist nhận vào cho từng screen.
+    + Chạy file script testing_screen cho phần 1B cho từng màn hình đầu vào (ví dụ có 3 trang B1, B2, B3 thì chạy để test) và điền vào bảng gui_checklist của từng màn hình với status và note đầy đủ, nếu có bug thì nhớ kèm đường dẫn tới ảnh bug và đường dẫn tới file bug_report.md tương ứng.
+    + Phần 2. tạo ra kịch bản tương ứng cho scenerio và các màn hình nhận vào, kèm với các cấu trúc thông tin người dùng có sẵn để tiện cho việc điền và triển khai folder user_testing_evidence phía sau.
+    + Phần 3. tạo ra các matrix tương ứng (copy format và toàn bộ matrix trong main_report mà tôi sẽ đính kèm) cho từng màn hình. sau đó chạy script testing_browser_screen để điền sẵn 4 browser với desktop windows thông dụng.
+    - File bug_report.md để ghi lại các bug đã tìm thấy trong quá trình chạy test, format y hệt file bug_report tôi sẽ gửi kèm cho bạn.
+    ok, đây là yêu cầu của tôi, bạn hãy tạo các file tương ứng trong folder agent_skills nhé, các file tham khảo gồm: [main_report.md](file;file:///d%3A/STD/Y3/Y3S3/KiemThuPM/hw/hw3/main_report.md) [bug_usability_findings_log.md](file;file:///d%3A/STD/Y3/Y3S3/KiemThuPM/hw/hw3/bug_usability_findings_log.md) [test_request.md](file;file:///d%3A/STD/Y3/Y3S3/KiemThuPM/hw/hw3/user_testing_evidence/test_request.md) [task_scenario.md](file;file:///d%3A/STD/Y3/Y3S3/KiemThuPM/hw/hw3/user_testing_evidence/task_scenario.md) [shared_gui_checklist.md](file;file:///d%3A/STD/Y3/Y3S3/KiemThuPM/hw/hw3/shared_gui_checklist.md) [observation_notes.md](file;file:///d%3A/STD/Y3/Y3S3/KiemThuPM/hw/hw3/user_testing_evidence/observation_notes.md) [sus_responses.md](file;file:///d%3A/STD/Y3/Y3S3/KiemThuPM/hw/hw3/user_testing_evidence/sus_responses.md) 
+    ```
+
+*   **Kết quả phản hồi của AI (Output):** 
+    ```text
+    1. File 
+    agent_skills/testing_screen.js
+    Chức năng: Script tự động hóa kiểm thử các màn hình SUT (B1, B2, B3) với trình duyệt trực quan.
+    Thao tác tự động:
+    Tự động điều hướng qua Màn hình B1 (Home/List), B2 (Detail), B3 (Registration Form).
+    Thực thi kiểm tra các chỉ số IA-01 (Grid, Language), IA-02 (Form validation), IA-03 (Nav), IA-04 (Toast notification khi Save/Mất kết nối mạng).
+    Phát hiện lỗi bất thường và tự động chụp ảnh lưu vào images/bug_screenshots/.
+    Xuất kết quả kiểm thử dạng dữ liệu JSON để tích hợp vào báo cáo.
+    2. File 
+    agent_skills/testing_browser_screen.js
+    Chức năng: Script tự động mở các trình duyệt Desktop (Google Chrome, Microsoft Edge, Mozilla Firefox, Opera).
+    Thao tác tự động:
+    Lần lượt mở từng trình duyệt, truy cập 3 màn hình B1, B2, B3.
+    Tự động chèn lớp phủ Watermark MSSV (MSSV: 23127125 - 23127125@student.hcmus.edu.vn) màu đỏ nổi bật ở góc phải màn hình trước khi chụp ảnh.
+    Tự động chụp 12 file ảnh tương thích đặt tên đúng chuẩn (windows_chrome_desktop_B1.png, windows_edge_desktop_B1.png, ...) vào images/cross_platform_screenshots/.
+    3. File 
+    agent_skills/gui_testing.md
+    Chức năng: File quy chuẩn Master Orchestration dành cho AI Agent.
+    Quy trình điều phối AI:
+    Đầu vào: Đọc file shared_gui_checklist.md làm chuẩn để sinh Phần 1A cho toàn bộ màn hình.
+    Nhận đặc tả kịch bản Scenario & các màn hình mục tiêu từ người dùng.
+    Khởi chạy testing_screen.js để test và điền kết quả Phần 1B (Pass/Fail/NA) kèm đường dẫn tới ảnh bug images/bug_screenshots/... và link tới bug_usability_findings_log.md.
+    Khởi chạy testing_browser_screen.js để tự động điền ma trận 4 trình duyệt Desktop trong Phần 4.
+    Ép định dạng đầu ra chuẩn 100% theo đúng cấu trúc của  main_report.md và bug_usability_findings_log.md (chuẩn 9 cột).
+    4. File 
+    agent_skills/skills_demo.md
+    (Cập nhật hoàn thiện)
+    Chức năng: File báo cáo tổng hợp mô tả công nghệ, mục tiêu tự động hóa, code snippet tiêu biểu và khung chèn Link Video YouTube demo lấy trọn 10% điểm cộng của bài tập.
+    ```
+
+### Promt 13:
+*   **Công cụ AI sử dụng:** Gemini 3.6 Flash (High) (Antigravity IDE)
+*   **Ngày giờ tương tác:** 10:07 03/08/2026
+*   **Câu lệnh đã hỏi (Prompt):**
+    ```text
+
+    ```
+
+*   **Kết quả phản hồi của AI (Output):** 
+    ```text
+
+    ```
+
+### Promt 13:
+*   **Công cụ AI sử dụng:** Gemini 3.6 Flash (High) (Antigravity IDE)
+*   **Ngày giờ tương tác:** 10:07 03/08/2026
+*   **Câu lệnh đã hỏi (Prompt):**
+    ```text
+
+    ```
+
+*   **Kết quả phản hồi của AI (Output):** 
+    ```text
+
+    ```
+
+### Promt 13:
+*   **Công cụ AI sử dụng:** Gemini 3.6 Flash (High) (Antigravity IDE)
+*   **Ngày giờ tương tác:** 10:07 03/08/2026
+*   **Câu lệnh đã hỏi (Prompt):**
+    ```text
+
+    ```
+
+*   **Kết quả phản hồi của AI (Output):** 
+    ```text
+
+    ```
 ---
 
 ## II. AI CRITIQUE (BÀI VIẾT PHÊ PHÁN AI - MANDATORY)
