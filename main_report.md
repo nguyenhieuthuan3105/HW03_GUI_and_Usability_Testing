@@ -252,21 +252,23 @@ _(Chi tiết từng buổi test ghi nhận tại file [observation_notes.md](use
 
 ### 4. Các Vấn Đề Usability Phát Hiện Qua Thực Tế (Usability Findings & Recommendations)
 
-_(Gom nhóm các điểm đau của người dùng, phân loại theo độ nghiêm trọng Severity từ 0 đến 4 và đưa ra đề xuất cải tiến)_
+#### Vấn đề 1: Không có mục riêng hiển thị thông tin diễn giả (Speaker Info) trên trang B2
+- **Mức độ nghiêm trọng (Severity):** `1` *(Thấp - [BUG-B2-05](/bug_usability_findings_log.md))*
+- **Mô tả hành vi người dùng:** Qua quá trình User Testing ở Task 2, nhiều người dùng có nhu cầu tìm hiểu kỹ thông tin năng lực, chức vụ và đơn vị công tác của các diễn giả trước khi đăng ký, nhưng trang chi tiết sự kiện B2 không có phần/thẻ riêng hiển thị thông tin diễn giả.
+- **Minh chứng hình ảnh:** ![Không có thông tin diễn giả](images/bug_screenshots/Screen_B2_Bug_Khong_Co_Thong_Tin_Dien_Gia.png)
+- **Đề xuất cải tiến (Recommendation):** Bổ sung phần/thẻ (Widget/Section) hiển thị danh sách diễn giả kèm hình ảnh đại diện, tên, chức vụ và đơn vị công tác tại trang chi tiết B2.
 
-#### Vấn đề 1: [Tên vấn đề Usability 1 - Ví dụ: Nút Đăng ký tham gia bị chìm so với nền]
+#### Vấn đề 2: Thiếu nút/đường dẫn chuyển hướng nhanh từ B3 sang trang vé QR (B4)
+- **Mức độ nghiêm trọng (Severity):** `2` *(Trung bình - [BUG-B3-07](/bug_usability_findings_log.md))*
+- **Mô tả hành vi người dùng:** Sau khi hoàn thành form đăng ký B3 và được chấp nhận, người dùng không thấy bất kỳ button hay link chuyển hướng nhanh nào để mở ngay sang vé QR hoặc trang "Sự kiện của tôi" (B4), làm thiếu tính mạch lạc và tốn thao tác di chuyển của người dùng.
+- **Minh chứng hình ảnh:** ![Không có nút chuyển nhanh sang QR](images/bug_screenshots/Screen_B3_Bug_Khong_Co_Navigate_Nhanh_Sang_Trang_QR.png)
+- **Đề xuất cải tiến (Recommendation):** Thêm button/link "Xem vé QR của tôi" nổi bật ngay trên thông báo Toast xác nhận đăng ký thành công và trong dialog kết quả.
 
-- **Mức độ nghiêm trọng (Severity):** `[0 - 4]` _(2: Trung bình / 3: Cao)_
-- **Mô tả hành vi người dùng:** `[Người dùng bị khựng lại khoảng 15 giây ở trang chi tiết B2 vì nút Đăng ký tham gia có màu sắc quá tương đồng với màu nền, làm giảm tính nhận diện (Signifier)]`.
-- **Minh chứng hình ảnh:** ![Minh chứng lỗi usability 1](images/bug_screenshots/usab_finding_01.png)
-- **Đề xuất cải tiến (Recommendation):** `[Chuyển màu nút Đăng ký tham gia sang màu Primary (Xanh nổi bật) và cố định ở thanh dưới cùng di động (Sticky Bottom Bar)]`.
-
-#### Vấn đề 2: [Tên vấn đề Usability 2 - Ví dụ: Thông báo trạng thái duyệt bài không rõ ràng]
-
-- **Mức độ nghiêm trọng (Severity):** `[0 - 4]`
-- **Mô tả hành vi người dùng:** `[Người dùng hoang mang sau khi gửi đăng ký ở form B3 vì không có Toast xác nhận và không biết bao giờ mới nhận được vé QR]`.
-- **Minh chứng hình ảnh:** ![Minh chứng lỗi usability 2](images/bug_screenshots/usab_finding_02.png)
-- **Đề xuất cải tiến (Recommendation):** `[Bổ sung Toast notification ngay sau khi Submit và hiển thị hộp thoại pop-up hướng dẫn người dùng kiểm tra mục Sự kiện của tôi]`.
+#### Vấn đề 3: Vị trí nút mã QR check-in trong Hồ sơ cá nhân (B4) quá khó tìm
+- **Mức độ nghiêm trọng (Severity):** `3` *(Cao - Gây sự khó chịu lớn - [BUG-B4-01](/bug_usability_findings_log.md))*
+- **Mô tả hành vi người dùng:** Mã QR check-in được bố trí như đánh đố người dùng. Từ B3 sau khi được chấp nhận đăng ký, người dùng không thể navigate trực tiếp mà phải bấm vào icon Avatar -> Chọn "Xem hồ sơ" -> Mới vào được trang Hồ sơ cá nhân B4. Tại B4, button mở QR lại nằm cố định ở đầu trang, màu sắc mờ nhạt và không cuộn theo trang (non-sticky). Rất nhiều user dù đã vào tới trang cá nhân vẫn không thể tìm ra vị trí mở vé QR.
+- **Minh chứng hình ảnh:** ![Vị trí mã QR quá khó tìm](images/bug_screenshots/Screen_B4_QR_O_Vi_Tri_Kho_Tim.png)
+- **Đề xuất cải tiến (Recommendation):** Đưa vé QR lên vị trí trung tâm nổi bật ở đầu B4, bổ sung khung thông báo vé mới đăng ký và hỗ trợ nút ghim/floating action button cho phép mở QR từ mọi vị trí trên trang.
 
 ---
 
@@ -275,7 +277,7 @@ _(Gom nhóm các điểm đau của người dùng, phân loại theo độ nghi
 ### 1. Ma Trận Kiểm Thử Tương Thích (Compatibility Matrix)
 
 Ma trận được xây dựng chi tiết cho từng màn hình (**Screen B1, B2, B3**) theo đúng quy tắc phủ tối thiểu (Minimal Coverage Rule).  
-* **Quy định minh chứng:** Tất cả ảnh chụp màn hình tương thích đều có overlay watermark MSSV (`MSSV: 23127125` / `23127125@student.hcmus.edu.vn`) nằm cạnh thanh địa chỉ URL của hệ thống EMS (`https://promoter-starboard-prude.ngrok-free.dev/`).
+* **Quy định minh chứng:** Tất cả ảnh chụp màn hình tương thích đều có overlay watermark MSSV (`MSSV: 23127125` / `23127125@student.hcmus.edu.vn`) nằm cạnh thanh địa chỉ URL của hệ thống EMS (`https://prod-dev.ems-fitus.cloud`).
 
 #### A. Ma Trận Tương Thích Màn Hình B1 (Home / Events Listing)
 
@@ -310,7 +312,7 @@ Ma trận được xây dựng chi tiết cho từng màn hình (**Screen B1, B2
 | **3** | Desktop | Windows | Mozilla Firefox | Pass | [Xem ảnh](images/cross_platform_screenshots/windows_firefox_desktop_B3.png) |
 | **4** | Desktop | Windows | Opera | Pass | [Xem ảnh](images/cross_platform_screenshots/windows_opera_desktop_B3.png) |
 | **5** | Desktop | macOS | Apple Safari | Pass | [Xem ảnh](images/cross_platform_screenshots/macos_safari_desktop_B3.png) |
-| **6** | Phone | Android | Google Chrome | Pass | [Xem ảnh](images/cross_platform_screenshots/android_chrome_phone_B3.png) |
+| **6** | Phone | Android | Google Chrome | Fail | [Xem ảnh](images/cross_platform_screenshots/android_chrome_phone_B3.png) *(Xem lỗi [BUG-B3-08](/bug_usability_findings_log.md))* |
 | **7** | Tablet | Android | Google Chrome | Pass | [Xem ảnh](images/cross_platform_screenshots/android_chrome_tablet_B3.png) |
 
 ---
@@ -320,7 +322,7 @@ Ma trận được xây dựng chi tiết cho từng màn hình (**Screen B1, B2
 #### A. Đánh giá Khả năng co giãn giao diện (Responsiveness):
 
 - **Desktop (Windows / macOS):** Bố cục hiển thị chuẩn lưới 3-4 (hoặc 2-3 với Edge, Opera và Safari) cột tùy vào sidebar có được hiển thị hay không, khoảng cách spacing và font chữ đồng đều trên tất cả các trình duyệt. Với cùng 1 tỉ lệ màn hình thì nhìn chung cách bố trí tổng quan giữa các trình duyệt không có sự khác biệt lớn. Với macOS vì sử dụng máy ảo nên màn hình hơi nhỏ, tạo cảm giác khá mờ.
-- **Phone (Android):** Ở trang B1 và B2 giao diện tự động co giãn sang bố cục 1 cột. Có 1 số chữ khá dài nên bị cắt xuống dòng, tuy nhiên không làm cho layout bên ngoài bị vỡ. Ở trang B3 không chuyển sang bố cục 1 cột mà giữ nguyên bố cục 4 cột làm cho nội dung hiển thị bị nhỏ và tạo cảm giác gò bó. Headbar và Sidebar được thu gọn lại thành các icon trên màn hình, phù hợp cho tỉ lệ màn hình nhỏ.
+- **Phone (Android):** Ở trang B1 và B2 giao diện tự động co giãn sang bố cục 1 cột. Có 1 số chữ khá dài nên bị cắt xuống dòng, tuy nhiên không làm cho layout bên ngoài bị vỡ. Ở trang B3 không chuyển sang bố cục 1 cột mà giữ nguyên bố cục 4 cột làm cho nội dung hiển thị bị nhỏ và tạo cảm giác gò bó (Xem lỗi [BUG-B3-08](/bug_usability_findings_log.md) & [Xem ảnh](images/bug_screenshots/Screen_B3_Bug_android_chrome_phone_4_columns.png)). Headbar và Sidebar được thu gọn lại thành các icon trên màn hình, phù hợp cho tỉ lệ màn hình nhỏ.
 - **Tablet (Android):** Giao diện trang B1 hiển thị ở dạng lưới 2 cột, khoảng cách spacing và font chữ khá ổn. Các trang B2 và B3 nhìn chung giống như bố cục của các trình duyệt trên Desktop.
 
 #### B. Đánh giá Tốc độ tải trang và phản hồi của website:
@@ -331,7 +333,8 @@ Ma trận được xây dựng chi tiết cho từng màn hình (**Screen B1, B2
 
 #### C. Tổng hợp Lỗi tương thích nổi bật (Cross-Platform Defects):
 
-- Trang web được thiết kế khá tốt về mặt hiển thị đối với các trình duyệt trên Desktop, Mobile và Tablet. Không gặp phải lỗi hình ảnh gì quá nghiêm trọng.
+- **Lỗi Responsive 4 cột trên di động (Mobile Android B3):** Tại giao diện di động (Android Phone), trang B3 không tự chuyển đổi sang 1 cột mà giữ nguyên 4 cột thông tin làm chữ bị đè, gò bó và khó thao tác ([BUG-B3-08](/bug_usability_findings_log.md) - [Xem ảnh](images/bug_screenshots/Screen_B3_Bug_android_chrome_phone_4_columns.png)).
+
 
 ---
 

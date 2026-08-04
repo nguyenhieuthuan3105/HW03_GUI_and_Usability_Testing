@@ -468,17 +468,28 @@ Mỗi phiên tương tác với AI hỗ trợ thực hiện bài tập lớn đ�
     Chức năng: File báo cáo tổng hợp mô tả công nghệ, mục tiêu tự động hóa, code snippet tiêu biểu và khung chèn Link Video YouTube demo lấy trọn 10% điểm cộng của bài tập.
     ```
 
-### Promt 13:
+### Promt 15:
 *   **Công cụ AI sử dụng:** Gemini 3.6 Flash (High) (Antigravity IDE)
-*   **Ngày giờ tương tác:** 10:07 03/08/2026
+*   **Ngày giờ tương tác:** 15:13 04/08/2026
 *   **Câu lệnh đã hỏi (Prompt):**
     ```text
-
+    trong quá trình thực hiện task 2 và task 3 các user và tôi đã phát hiện ra được thêm các bug sau và có chụp ảnh trong folder bug_screenshots. Tôi muốn bạn cập nhật lại chúng vào trong file main_report.md và bug_usability_findings_log.md nhé, cụ thể như sau:
+    - Task 2: 3 bug usability:
+    + Screen_B2_Bug_Khong_Co_Thong_Tin_Dien_Gia.png : Không có mục riêng để hiển thị thông tin diễn giả, được phát hiện thông qua quá trình user test ở task 2. Độ quan trọng 1 vì không ảnh hưởng quá nhiều tới trải nghiệm.
+    + Screen_B3_Bug_Khong_Co_Navigate_Nhanh_Sang_Trang_QR.png : Không có 1 button hay đường dẫn nhanh nào để mở trực tiếp sang trang QR hoặc trang "Hoạt động của tôi" (B4) nằm trong "Xem hồ sơ", làm thiếu tính mạch lạc và tiện dụng của trang. Độ quan trọng 2 vì là nguyên nhân khá quan trọng cho bug thứ 3 ngay dưới.
+    + Screen_B4_QR_O_Vi_Tri_Kho_Tim.png : QR checkin quá khó tìm, như đánh đố người dùng. Từ screen B3 sau khi được admin chấp nhận đăng ký, người dùng không thể navigate trực tiếp mà phải chọn vào icon avatar, chọn "Xem hồ sơ" rồi vào trang hồ sơ cá nhân. Button để mở QR lại nằm cứng ở đầu và không nổi bật, không cuộn theo trang, rất nhiều user thậm chí vào được tới trang này vẫn không tìm ra được QR checkin. Độ quan trọng 3 (hoặc 4) vì gây sự khó chịu lớn cho người dùng.
+    - Task 3: 1 bug giao diện:
+    + Screen_B3_Bug_android_chrome_phone_4_columns.png : Khi lên android với màn hình nhỏ thì 4 cột thông tin của trang B3 cũng không resize lại khiến phần nội dung hiển thị được bị nhỏ và khó quan sát. Độ quan trọng 1.
     ```
 
 *   **Kết quả phản hồi của AI (Output):** 
     ```text
-
+    CÁC VỊ TRÍ ĐÃ CẬP NHẬT TRONG TỆP BÁO CÁO:
+    bug_usability_findings_log.md:
+    Đã bổ sung 4 dòng lỗi chuẩn 9 cột BUG-B2-05, BUG-B3-07, BUG-B4-01, BUG-B3-08 ở cuối bảng log lỗi.
+    main_report.md:
+    Phần 3 (Usability Findings & Recommendations): Cập nhật chi tiết 3 vấn đề Usability (BUG-B2-05, BUG-B3-07, BUG-B4-01) kèm mô tả hành vi người dùng, mức độ nghiêm trọng, hình ảnh minh chứng và đề xuất thiết kế cải tiến.
+    Phần 4.1.C & 4.2.C (Ma trận & Lỗi tương thích nổi bật): Cập nhật trạng thái Fail cho ô Android Chrome Phone tại Màn hình B3 và trích dẫn lỗi responsive 4 cột BUG-B3-08.
     ```
 
 ### Promt 13:
