@@ -1,6 +1,5 @@
 # AI Audit Report & AI Critique - Individual Deliverable
 
-> [!NOTE]
 > Tài liệu bắt buộc khai báo minh bạch quá trình sử dụng trí tuệ nhân tạo (AI) hỗ trợ làm bài tập, bao gồm Nhật ký sử dụng AI (AI Audit Log) và Đánh giá phản biện AI (AI Critique).
 
 ---
@@ -492,31 +491,92 @@ Mỗi phiên tương tác với AI hỗ trợ thực hiện bài tập lớn đ�
     Phần 4.1.C & 4.2.C (Ma trận & Lỗi tương thích nổi bật): Cập nhật trạng thái Fail cho ô Android Chrome Phone tại Màn hình B3 và trích dẫn lỗi responsive 4 cột BUG-B3-08.
     ```
 
-### Promt 13:
+### Promt 16:
 *   **Công cụ AI sử dụng:** Gemini 3.6 Flash (High) (Antigravity IDE)
-*   **Ngày giờ tương tác:** 10:07 03/08/2026
+*   **Ngày giờ tương tác:** 19:52 04/08/2026
 *   **Câu lệnh đã hỏi (Prompt):**
     ```text
-
+    tôi cần thêm 1 chỗ để nhập link youtube của vid phỏng vấn 5 người (cùng 1 vid) trong main_report và sus_response, hãy chuẩn bị sẵn cho tôi. Sau đó dò lại toàn bộ project hiện tại xem đã đáp ứng được bao nhiêu so với yêu cầu đề bài rồi, có cần chỉnh sửa hay bổ sung gì nữa hay không nhé. [guiding.md](file;file:///d%3A/STD/Y3/Y3S3/KiemThuPM/hw/hw3/support/guiding.md) [2026.HW03.GUI%20Usability%20EMS_En.pdf](file;file:///d%3A/STD/Y3/Y3S3/KiemThuPM/hw/hw3/hw_request/2026.HW03.GUI%20Usability%20EMS_En.pdf)
     ```
 
 *   **Kết quả phản hồi của AI (Output):** 
     ```text
-
+    Tôi đã bổ sung sẵn vị trí dán Link Video YouTube Phỏng vấn 5 người dùng vào tất cả các tệp báo cáo liên quan, đồng thời thực hiện dò soát toàn bộ dự án đối chiếu 100% với yêu cầu trong file đề bài hw_request/2026.HW03.GUI Usability EMS_En.pdf và support/guiding.md.
     ```
 
-### Promt 13:
-*   **Công cụ AI sử dụng:** Gemini 3.6 Flash (High) (Antigravity IDE)
-*   **Ngày giờ tương tác:** 10:07 03/08/2026
-*   **Câu lệnh đã hỏi (Prompt):**
-    ```text
-
-    ```
-
-*   **Kết quả phản hồi của AI (Output):** 
-    ```text
-
-    ```
 ---
 
-## II. AI CRITIQUE (BÀI VIẾT PHÊ PHÁN AI - MANDATORY)
+## II. AI AUDIT REPORT (BÁO CÁO KIỂM THỬ BỞI AI)
+
+### Sản phẩm 1 (Artifact 1): Tạo lập cấu trúc định dạng chuẩn (Format Template) cho báo cáo `main_report.md`
+
+- **(1) Prompt + Tool:**
+  - **Tool:** Gemini 3.6 Flash (Antigravity IDE)
+  - **Thời gian:** 25/07/2026 - 27/07/2026
+  - **Prompt:** `Xây dựng khung cấu trúc định dạng Markdown chuẩn cho báo cáo main_report.md bám sát barem điểm và yêu cầu 5 phần chính của môn học.`
+- **(2) AI output:** AI sinh ra bộ khung cấu trúc báo cáo 5 phần cực kỳ rõ ràng, đầy đủ các mục header, bảng checklist, kịch bản usability, ma trận đa trình duyệt và phụ lục công cụ tự động hóa.
+- **(3) Kết luận:** HOÀN THIỆN (VALID)
+- **(4) Lý do:** AI phát huy tối đa thế mạnh về định dạng cú pháp Markdown, cấu trúc tài liệu khoa học, đáp ứng 100% yêu cầu barem điểm của đề bài mà không bị hallucination.
+- **(5) Chỉnh sửa:** Không cần sửa đổi cấu trúc khung. Giữ nguyên template và chỉ điền các số liệu kiểm thử thực tế vào các bảng.
+
+### Sản phẩm 2 (Artifact 2): Phân tích kịch bản Usability Testing & chỉ số đo lường SUS cho 5 người dùng (Task 2)
+
+- **(1) Prompt + Tool:**
+  - **Tool:** Gemini 3.6 Flash (Antigravity IDE)
+  - **Thời gian:** 28/07/2026 - 02/08/2026
+  - **Prompt:** `Yêu cầu thiết kế kịch bản Usability Testing và tính toán chỉ số đo lường SUS cho 5 người dùng thực hiện nhiệm vụ đăng ký sự kiện.`
+- **(2) AI output:** AI phân tích và gợi ý kịch bản test nhưng lại viết theo dạng chỉ dẫn từng nút bấm (Step-by-step UI instruction) thay vì kịch bản hướng tới mục tiêu (Goal-oriented task scenario). Ngoài ra, AI tự động bịa ra điểm số SUS ngẫu nhiên (như 85/100, 90/100) mà không dựa trên dữ liệu khảo sát thực tế.
+- **(3) Kết luận:** CHƯA HOÀN THIỆN (INCOMPLETE) & KHÔNG HỢP LỆ (INVALID)
+- **(4) Lý do:** AI áp dụng suy đoán lý thuyết rằng hệ thống hoạt động hoàn hảo thay vì phản ánh trải nghiệm bực bội thực tế của người dùng. Việc sinh dữ liệu (Arbitrary Data Generation) không bám vào thực địa khiến điểm SUS không phản ánh đúng các điểm đau như mã QR bị giấu sâu ở Hồ sơ cá nhân B4.
+- **(5) Chỉnh sửa:** Chuyển kịch bản thành định dạng Goal-oriented. Cập nhật lại toàn bộ bảng số liệu metrics và điểm SUS tính toán chính xác từ phiếu khảo sát 10 câu của 5 người dùng thật, ghi nhận điểm SUS trung bình thực tế là 40.5/100 (Grade F - Awful UX).
+
+### Sản phẩm 3 (Artifact 3): Thiết lập và thực thi Agent Skills tự động hóa chụp ma trận đa trình duyệt & kiểm thử GUI (Task 3 & Agent Skills)
+
+- **(1) Prompt + Tool:**
+  - **Tool:** Agent Skills Script (Node.js & Puppeteer-core)
+  - **Thời gian:** 03/08/2026 - 04/08/2026
+  - **Prompt:** `Kích hoạt Agent Skill với System Blueprint ép buộc AI dùng đúng định dạng Markdown, không hallucinate luồng SSO Microsoft 4 bước cũ và chạy luồng Đăng nhập Trực tiếp cho ma trận tương thích đa trình duyệt.`
+- **(2) AI output:** Tạo ra tài liệu có định dạng cực kỳ chuẩn xác và xuất ma trận kết quả JSON. Tuy nhiên, AI mặc định khởi chạy toàn bộ 7 môi trường bằng engine Chromium giả lập thay vì kiểm tra tệp thực thi trình duyệt thực tế trên Windows, và bỏ qua việc xử lý các vị trí cuộn trang đặc thù của Form B3.
+- **(3) Kết luận:** CHƯA HOÀN THIỆN (INCOMPLETE) & KHÔNG HỢP LỆ (INVALID)
+- **(4) Lý do:** Mặc dù Agent Skill khắc phục hoàn toàn định dạng báo cáo, bản chất AI vẫn phân tích cục bộ. Sự thiếu nhận thức về môi trường hệ điều hành Windows dẫn đến việc AI không tự tìm đường dẫn file `.exe` của Google Chrome và Microsoft Edge thực tế.
+- **(5) Chỉnh sửa:** Tôi trực tiếp bổ sung cơ chế quét đường dẫn binary `.exe` thực tế của Chrome và Edge trên Windows vào `testing_browser_screen.js`. Cấu trúc lại ma trận tương thích để ghi nhận trạng thái Pass cho Chrome/Edge và N/A cho các môi trường không cài đặt.
+
+### Sản phẩm 4 (Artifact 4): Thực hiện Log Bug và điền kết quả kiểm thử vào `main_report.md` & `bug_usability_findings_log.md` từ dữ liệu thực tế (`run_check.txt`)
+
+- **(1) Prompt + Tool:**
+  - **Tool:** Gemini 3.6 Flash (Antigravity IDE)
+  - **Thời gian:** 26/07/2026 - 04/08/2026
+  - **Prompt:** `Đọc dữ liệu ghi chép chạy test thực tế (run_check.txt) do người dùng thực thi và tổng hợp toàn bộ danh sách bug chuẩn 9 cột cùng kết quả thực thi checklist vào main_report.md và bug_usability_findings_log.md.`
+- **(2) AI output:** AI tổng hợp chính xác dữ liệu chạy test thực tế từ file ghi chép `run_check.txt` thành bảng kết quả checklist chi tiết cho các màn hình B1, B2, B3 và bảng log lỗi chuẩn 9 cột, tự động ánh xạ Heuristic IDs và chèn link Markdown dẫn tới ảnh minh chứng.
+- **(3) Kết luận:** HOÀN THIỆN (VALID)
+- **(4) Lý do:** AI phát huy hiệu quả tuyệt đối trong việc tự động hóa ánh xạ chuỗi, xử lý dữ liệu cấu trúc và định dạng bảng khi được cung cấp nguồn dữ liệu kiểm thử thực địa chính xác (Ground Truth từ `run_check.txt`).
+- **(5) Chỉnh sửa:** Rà soát lại liên kết các tệp ảnh lỗi và bổ sung thêm các mã lỗi Usability phát sinh từ quá trình User Testing thực tế với 5 người dùng.
+
+### Tổng kết và Kết luận
+
+**1. Tỷ lệ chính xác của AI (AI Accuracy Ratio):**
+Dựa trên các Artifacts trong quá trình thực thi HW03:
+
+- **VALID:** ~50% (Sản phẩm 1: Tạo lập format template báo cáo main_report.md & Sản phẩm 4: Log bug và điền kết quả kiểm thử từ file run_check.txt).
+- **INVALID:** ~15% (Ảo giác giả lập engine Chromium thay vì mở trình duyệt Windows thực tế và tự bịa điểm số SUS ngẫu nhiên).
+- **INCOMPLETE:** ~35% (Kịch bản test ban đầu viết dạng chỉ dẫn từng nút bấm và bỏ sót nhận thức môi trường hệ điều hành Windows).
+
+**2. Kết luận:**
+Qua quá trình hợp tác và kiểm toán công cụ Gemini 3.6 Flash và Antigravity IDE, tôi rút ra nguyên tắc sử dụng AI trong công việc QA/QC như sau:
+
+- **KHI NÀO NÊN DÙNG AI:** Sử dụng AI hiệu quả nhất cho các tác vụ tạo cấu trúc định dạng báo cáo (Sản phẩm 1) và xử lý/định dạng lại dữ liệu ghi chép kiểm thử thực tế từ người dùng (Sản phẩm 4), cũng như thiết lập các Agent Skill để tự động hóa các kịch bản chuẩn.
+- **KHI NÀO KHÔNG NÊN DÙNG AI:** Không tin tưởng hoàn toàn vào khả năng tự sinh kịch bản hay tự bịa kết quả kiểm thử của AI mà không có dữ liệu thực địa (Ground Truth). Tuyệt đối không để AI tự quyết định dữ liệu điểm SUS hay tự giả lập môi trường đa trình duyệt mà không kiểm tra tệp thực thi thực tế trên OS. Sự kiểm soát thủ công (Human-in-the-loop) là bắt buộc.
+
+---
+
+## III. AI CRITIQUE (BÀI VIẾT PHÊ PHÁN AI - MANDATORY)
+
+Sau khi sử dụng Gemini 3.6 Flash và Antigravity IDE trong quá trình thực hiện bài tập HW03 - EMS GUI & Usability Testing, tôi nhận thấy rằng việc áp dụng AI mang lại hiệu quả rất cao ở các tác vụ tạo cấu trúc định dạng báo cáo chuẩn (như Sản phẩm 1) và tự động hóa xử lý dữ liệu kiểm thử thực tế từ người dùng (như Sản phẩm 4), nhưng cũng bộc lộ nhiều hạn chế và xuất hiện tình trạng hallucination khi yêu cầu AI tự sinh kịch bản kiểm thử độc lập.
+
+Điểm mạnh nổi bật của AI là khả năng thiết lập cấu trúc tài liệu khoa học, chuẩn hóa bảng biểu Markdown và ánh xạ nhanh các chuỗi dữ liệu ghi chép thực địa (`run_check.txt`) sang danh mục Heuristics chuẩn 9 cột. Nhờ AI, việc tổng hợp báo cáo và đối chiếu các liên kết ảnh được thực hiện cực kỳ chính xác và tiết kiệm thời gian.
+
+Tuy nhiên, điểm yếu lớn nhất của AI là xu hướng áp đặt kiến thức chung (general knowledge) và tự bịa dữ liệu khi thiếu ngữ cảnh thực địa. Tại Task 2 Usability Testing, AI vội vàng bịa ra điểm số SUS ngẫu nhiên cao ngất ngưởng (85-90/100) thay vì phản ánh đúng sự bực bội thực tế của 5 người dùng khi phải loay hoay tìm mã QR bị giấu sâu ở Hồ sơ cá nhân B4. Ngoài ra, AI tỏ ra thiếu hụt nhận thức về môi trường hệ điều hành Windows khi giả lập mọi môi trường trên 1 engine Chromium thay vì mở ứng dụng Google Chrome và Microsoft Edge thực tế cài sẵn trên máy.
+
+Cuối cùng, nếu không bị ép buộc bằng dữ liệu thực tế hoặc các định dạng Agent Skill nghiêm ngặt, AI thường dùng dữ liệu giả định không thực tế (như `user@example.com`) và viết kịch bản dạng chỉ dẫn từng nút bấm thay vì kịch bản hướng tới mục tiêu.
+
+Tóm lại, AI là một trợ lý đắc lực để thiết lập template báo cáo và xử lý dữ liệu kiểm thử thực tế, nhưng Tester bắt buộc phải cung cấp dữ liệu thực tế chính xác, thực nghiệm trực tiếp với người dùng thật và duy trì sự kiểm duyệt thủ công xuyên suốt quá trình làm bài.

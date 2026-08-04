@@ -235,7 +235,9 @@ _(Thông tin 5 người dùng thật ngoài lớp học, số điện thoại v�
 | **2** | Nguyễn V. M. Q        | Sinh viên FIT   | `077****444` / `nvmquang23@clc.fitus.edu.vn` | Cao                | Desktop (Windows / Chrome) |
 | **3** | Trần K. C               | Sinh viên FIT   | `082****788` / `tkchi23@clc.fitus.edu.vn`  | Cao                | Desktop (Windows / Chrome) |
 | **4** | Phạm T. T             | Sinh viên       | `081****981` / `phamthanhtin1210@gmail.com` | Cao                | Desktop (Windows / Brave)  |
-| **5** | Hoàng V. E            | Học sinh cấp 3  | `0933***556` / `evh***@gmail.com`          | Trung bình               | Tablet (Android / Chrome)  |
+| **5** | Nguyễn B. T            | Học sinh cấp 3  | `0933***556` / `evh***@gmail.com`          | Trung bình               | Tablet (Android / Chrome)  |
+
+* **Video ghi hình phỏng vấn & thực nghiệm Usability Testing (5 người dùng):** [Xem Video Phỏng Vấn 5 Người Dùng trên YouTube](https://youtu.be/zmX3XGFOPUc)
 
 ### 3. Bảng Chỉ Số Đo Lường Usability (Metrics Table)
 
@@ -245,8 +247,9 @@ _(Thông tin 5 người dùng thật ngoài lớp học, số điện thoại v�
 | **User 2**     | `Completed`                                          | `211s`                      | `2 lần`                     | `17.5 / 100`      | Gặp trở ngại lớn khi tìm mã QR (vào màn hình Hướng dẫn không thấy), bực bội vị trí QR. |
 | **User 3**     | `Completed`                                          | `138s`                      | `2 lần`                     | `50.0 / 100`      | Phàn nàn thanh tìm kiếm xấu; lúng túng khi đi tìm mã QR (quay lại trang chi tiết B2). |
 | **User 4**     | `Completed`                                          | `155s`                      | `0 lần`                     | `5.0 / 100`       | Bối rối về bố cục và màu sắc; bấm thông báo bị dẫn về B2 rồi mới mò ra mã QR ở Hồ sơ. |
-| **User 5**     | `[Completed / Partial / Failed]`                     | `[...s]`                    | `[... lần]`                 | `[... / 100]`     | `[Ghi chú...]`                                    |
-| **TRUNG BÌNH** | **`[...% Completed]`**                               | **`[... giây]`**            | **`[... lần]`**             | **`[... / 100]`** | **Xếp loại UX:** `[Excellent / Good / OK / Poor]` |
+| **User 5**     | `Completed`                                          | `186s`                      | `3 lần`                     | `52.5 / 100`      | Lướt tìm sự kiện không thấy (phải nhờ gợi ý search); tìm kiếm sai tên; không tự mở được QR (phải nhờ hỗ trợ). |
+| **TRUNG BÌNH** | **`100% Completed`**                                 | **`210 giây`**              | **`2.0 lần`**               | **`40.5 / 100`** | **Xếp loại UX:** `Poor` *(Grade F - Awful)* |
+
 
 _(Chi tiết từng buổi test ghi nhận tại file [observation_notes.md](user_testing_evidence/observation_notes.md) và bảng điểm SUS tại [sus_responses.md](user_testing_evidence/sus_responses.md))._
 

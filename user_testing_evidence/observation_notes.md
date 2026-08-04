@@ -13,7 +13,7 @@
 | **2** | Nguyễn V. M. Q        | Sinh viên FIT   | `077****444` / `nvmquang23@clc.fitus.edu.vn` | Cao                | Desktop (Windows / Chrome) |
 | **3** | Trần K. C             | Sinh viên FIT   | `082****788` / `tkchi23@clc.fitus.edu.vn` | Cao                | Desktop (Windows / Chrome) |
 | **4** | Phạm T. T             | Sinh viên       | `081****981` / `phamthanhtin1210@gmail.com` | Cao                | Desktop (Windows / Brave)  |
-| **5** | Hoàng V. E            | Học sinh cấp 3  | `0933***556` / `evh***@gmail.com`          | Trung bình               | Tablet (Android / Chrome)  |
+| **5** | Nguyễn B. T           | Sinh viên       | `089****789` / `songmatsu1204@gmail.com`   | Trung bình          | Desktop (Windows / Chrome) |
 
 ---
 
@@ -140,22 +140,31 @@
 
 ---
 
-## 5. NGƯỜI DÙNG 5 (User 5 - Hoàng V. E)
-* **Thời gian bắt đầu:** `[HH:MM]` | **Thời gian kết thúc:** `[HH:MM]` | **Tổng thời gian:** `[... giây]`
-* **Trạng thái hoàn thành (Task Success):** `[Completed / Partial / Failed]`
-* **Số lần do dự / Thao tác lỗi (Error & Hesitation Count):** `[... lần]`
+## 5. NGƯỜI DÙNG 5 (User 5 - Nguyễn B. T)
+* **Thời gian bắt đầu:** `17:03:00` | **Thời gian kết thúc:** `17:06:06` | **Tổng thời gian:** `186 giây`
+* **Trạng thái hoàn thành (Task Success):** `Completed`
+* **Số lần do dự / Thao tác lỗi (Error & Hesitation Count):** `3 lần`
 
 ### A. Nhật ký hành vi chi tiết (Timeline & Action Log):
-* **`00:15` - `00:50` (Màn hình B1):** `[Ghi chép hành vi...]`
-* **`00:50` - `01:40` (Màn hình B2):** `[Ghi chép hành vi...]`
-* **`01:40` - `02:30` (Màn hình B3):** `[Ghi chép hành vi...]`
-* **`02:30` - `03:20` (Phê duyệt & Màn hình B4):** `[Ghi chép hành vi...]`
+* **`00:18` - `00:22` (Màn hình Đăng nhập):** Truy cập thành công trang chủ bằng tài khoản Sinh viên.
+* **`00:23` - `00:57` (Màn hình B1):** Lướt tìm trong trang sự kiện và tìm được sự kiện đích. Tuy nhiên tìm không được và được người hướng dẫn gợi ý dùng thanh search (Lỗi).
+* **`00:58` - `01:12` (Màn hình B1):** Sử dụng thanh search nhưng tìm kiếm sai tên sự kiện nên không tháy gì (Lỗi).
+* **`01:13` - `01:26` (Màn hình B1):** Sử dụng thanh search  lần 2, nhập đúng tên và tìm được sự kiện đích.
+* **`01:27` - `01:50` (Màn hình B2):** Click vào sự kiện để xem chi tiết. Tìm hiểu các thông tin cơ bản của sự kiện.
+* **`01:51` - `01:57` (Màn hình B3):** Lướt xuống dưới màn hình B3. Tiến hành đăng ký sự kiện và chờ Admin duyệt.
+* **`01:58` - `02:16` (Màn hình B3):** Admin duyệt thành công. Reset màn hình để xác nhận rằng đẵ được admin approved.
+* **`02:17` - `02:53` (Màn hình B3):** Tự tìm QR nhưng không thành công, nhờ người hướng dẫn hỗ trợ (Lỗi).
+* **`02:54` - `03:06` (Màn hình B3 -> B4):** Truy cập trang cá nhân để mở mã QR vé. Đã tìm thấy và mở được mã QR.
 
 ### B. Phát ngôn & Cảm xúc (Think-Aloud Verbalization):
-* `"[Trích dẫn câu nói của người dùng 5...]"`
+* *"Giờ đăng nhập kiểu gì? Tui chưa có tài khoản mà?"*
+* *"Ok cái conversation đâu?"*
+* *"Đăng ký participant hả?"*
+* *"Ủa như này là approved chưa?"*
+* *"Cái QR ở đâu vậy ông?"*
 
 ### C. Trả lời 4 câu hỏi thăm dò (Probe Questions):
-1. **Clarity:** `[Nội dung...]`
-2. **Error Recovery:** `[Nội dung...]`
-3. **Speed & Flow:** `[Nội dung...]`
-4. **Trust:** `[Nội dung...]`
+1. **Clarity:** `Tôi thấy các thông tin khá rõ ràng. Tôi không gặp bối rối gì đáng kể về giao diện`
+2. **Error Recovery:** `Tôi không thao tác sai nên không biết.`
+3. **Speed & Flow:** `Tôi thấy web mượt.`
+4. **Trust:** `Tôi không tin tưởng lắm.`

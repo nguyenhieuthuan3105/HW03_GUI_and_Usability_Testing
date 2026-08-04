@@ -34,22 +34,25 @@ Người dùng đánh giá từng câu theo thang điểm Likert từ **1 (Rất
 
 | STT | Câu hỏi | User 1 | User 2 | User 3 | User 4 | User 5 | Trung bình điểm gốc |
 |---|---|---|---|---|---|---|---|
-| **Q1** | Thích sử dụng thường xuyên (Lẻ) | 4 | 1 | 3 | 1 | `[1-5]` | `[0.0]` |
-| **Q2** | Phức tạp không cần thiết (Chẵn) | 1 | 5 | 3 | 5 | `[1-5]` | `[0.0]` |
-| **Q3** | Dễ sử dụng (Lẻ) | 5 | 1 | 3 | 1 | `[1-5]` | `[0.0]` |
-| **Q4** | Cần hỗ trợ kỹ thuật (Chẵn) | 1 | 5 | 4 | 5 | `[1-5]` | `[0.0]` |
-| **Q5** | Chức năng tích hợp tốt (Lẻ) | 3 | 3 | 3 | 3 | `[1-5]` | `[0.0]` |
-| **Q6** | Bất nhất trong hệ thống (Chẵn) | 3 | 4 | 3 | 5 | `[1-5]` | `[0.0]` |
-| **Q7** | Học cách dùng nhanh (Lẻ) | 5 | 3 | 3 | 1 | `[1-5]` | `[0.0]` |
-| **Q8** | Cồng kềnh/khó dùng (Chẵn) | 2 | 4 | 3 | 5 | `[1-5]` | `[0.0]` |
-| **Q9** | Tự tin khi sử dụng (Lẻ) | 3 | 2 | 3 | 1 | `[1-5]` | `[0.0]` |
-| **Q10** | Cần học nhiều trước khi dùng (Chẵn) | 2 | 5 | 2 | 5 | `[1-5]` | `[0.0]` |
-| **Sum** | **Tổng điểm quy đổi (0-40)** | **`31`** | **`7`** | **`20`** | **`2`** | **`0`** | - |
-| **SUS** | **ĐIỂM SUS CÁ NHÂN (0-100)** | **`77.5`** | **`17.5`** | **`50.0`** | **`5.0`** | **`0.0`** | - |
+| **Q1** | Thích sử dụng thường xuyên (Lẻ) | 4 | 1 | 3 | 1 | 3 | `2.4` |
+| **Q2** | Phức tạp không cần thiết (Chẵn) | 1 | 5 | 3 | 5 | 2 | `3.2` |
+| **Q3** | Dễ sử dụng (Lẻ) | 5 | 1 | 3 | 1 | 4 | `2.8` |
+| **Q4** | Cần hỗ trợ kỹ thuật (Chẵn) | 1 | 5 | 4 | 5 | 4 | `3.8` |
+| **Q5** | Chức năng tích hợp tốt (Lẻ) | 3 | 3 | 3 | 3 | 3 | `3.0` |
+| **Q6** | Bất nhất trong hệ thống (Chẵn) | 3 | 4 | 3 | 5 | 2 | `3.4` |
+| **Q7** | Học cách dùng nhanh (Lẻ) | 5 | 3 | 3 | 1 | 4 | `3.2` |
+| **Q8** | Cồng kềnh/khó dùng (Chẵn) | 2 | 4 | 3 | 5 | 2 | `3.2` |
+| **Q9** | Tự tin khi sử dụng (Lẻ) | 3 | 2 | 3 | 1 | 1 | `2.0` |
+| **Q10** | Cần học nhiều trước khi dùng (Chẵn) | 2 | 5 | 2 | 5 | 4 | `3.6` |
+| **Sum** | **Tổng điểm quy đổi (0-40)** | **`31`** | **`7`** | **`20`** | **`2`** | **`21`** | - |
+| **SUS** | **ĐIỂM SUS CÁ NHÂN (0-100)** | **`77.5`** | **`17.5`** | **`50.0`** | **`5.0`** | **`52.5`** | - |
 
 ---
 
-### ĐIỂM SUS TRUNG BÌNH TOÀN HỆ THỐNG: `[... / 100]`
+### ĐIỂM SUS TRUNG BÌNH TOÀN HỆ THỐNG: `40.5 / 100` *(Grade F - Awful / Poor UX)*
+
+* **Video quay lại toàn bộ quá trình phỏng vấn & khảo sát SUS 5 người dùng (YouTube):** [Xem Video Phỏng Vấn & Khảo Sát SUS 5 Người Dùng trên YouTube](https://youtu.be/zmX3XGFOPUc)
+
 
 ---
 
