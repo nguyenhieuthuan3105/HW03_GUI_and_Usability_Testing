@@ -9,11 +9,11 @@
 
 | STT   | Người dùng (Viết tắt) | Vai trò thực tế | Thông tin liên lạc (SĐT / Email)           | Trình độ công nghệ | Môi trường thử nghiệm      |
 | ----- | --------------------- | --------------- | ------------------------------------------ | ------------------ | -------------------------- |
-| **1** | Nguyễn Đ. M. D        | Sinh viên FIT   | `088****119` / `ndmduy23@clc.fitus.edu.vn` | Cao                | Desktop (Windows / Chrome) |
-| **2** | Nguyễn V. M. Q        | Sinh viên FIT   | `077****444` / `nvmquang23@clc.fitus.edu.vn` | Cao                | Desktop (Windows / Chrome) |
-| **3** | Trần K. C             | Sinh viên FIT   | `082****788` / `tkchi23@clc.fitus.edu.vn` | Cao                | Desktop (Windows / Chrome) |
-| **4** | Phạm T. T             | Sinh viên       | `081****981` / `phamthanhtin1210@gmail.com` | Cao                | Desktop (Windows / Brave)  |
-| **5** | Nguyễn B. T           | Sinh viên       | `089****789` / `songmatsu1204@gmail.com`   | Trung bình          | Desktop (Windows / Chrome) |
+| **1** | Nguyễn Đ. M. D        | Sinh viên FIT   | `088****119` / `ndm****@clc.fitus.edu.vn` | Cao                | Desktop (Windows / Chrome) |
+| **2** | Nguyễn V. M. Q        | Sinh viên FIT   | `077****444` / `nvmq****@clc.fitus.edu.vn` | Cao                | Desktop (Windows / Chrome) |
+| **3** | Trần K. C             | Sinh viên FIT   | `082****788` / `tkch****@clc.fitus.edu.vn` | Cao                | Desktop (Windows / Chrome) |
+| **4** | Phạm T. T             | Sinh viên       | `081****981` / `phamt****@gmail.com` | Cao                | Desktop (Windows / Brave)  |
+| **5** | Nguyễn B. T           | Sinh viên       | `089****789` / `songm****@gmail.com`   | Trung bình          | Desktop (Windows / Chrome) |
 
 ---
 
