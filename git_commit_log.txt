@@ -1,4 +1,24 @@
-﻿* commit 44372c542e59e7312bb88ec589ecd8faa522e7a9
+* commit dda8137fafe4ad269196cf4712d84bedbaceba5e
+| Author: Ruby <nhthuan23@clc.fitus.edu.vn>
+| Date:   Wed Aug 5 11:13:30 2026 +0700
+| 
+|     refinalize all required files for submission.
+| 
+|  README.md                                         |  25 +-
+|  ai_audit_report.md                                | 582 -------------------
+|  ai_templates/ai_audit_report.md                   | 606 ++++++++++++++++++++
+|  ai_templates/ai_audit_report.pdf                  | Bin 0 -> 865057 bytes
+|  ai_templates/ai_critique.md                       |  13 +
+|  ai_templates/ai_critique.pdf                      | Bin 0 -> 50171 bytes
+|  bug_usability_findings_log.pdf                    | Bin 0 -> 177676 bytes
+|  git_commit_log.txt                                | Bin 1654 -> 14356 bytes
+|  .../reference_sources_and_prompts.md              |   0
+|  .../shared_gui_checklist.md                       |   0
+|  main_report.pdf                                   | Bin 0 -> 519821 bytes
+|  user_testing_evidence/observation_notes.md        |  10 +-
+|  12 files changed, 636 insertions(+), 600 deletions(-)
+| 
+* commit 44372c542e59e7312bb88ec589ecd8faa522e7a9
 | Author: Ruby <nhthuan23@clc.fitus.edu.vn>
 | Date:   Tue Aug 4 21:39:49 2026 +0700
 | 

@@ -1,6 +1,5 @@
 # EMS GUI & Usability Testing - Individual Summary Report
 
-> [!NOTE]
 > File này chứa bảng tự đánh giá điểm và tóm tắt kết quả kiểm thử cá nhân đối với Kịch bản B (Scenario B).
 
 ## 1. Bảng Tự Đánh Giá Điểm (Self-Assessment Table)
